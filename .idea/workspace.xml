@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="fre &lt;p&gt; test">
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-    </list>
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="fre &lt;p&gt; test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +39,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\teamleden" />
+      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05" />
+      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\Tristan" />
+      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\Simon" />
+      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\Fré" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681734366884</updated>
-      <workItem from="1681734373327" duration="1135000" />
+      <workItem from="1681734373327" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -58,14 +65,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681734643447</updated>
     </task>
-    <task id="LOCAL-00002" summary="fre &lt;p&gt; test">
-      <created>1681735044355</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681735044355</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
