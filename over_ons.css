@@ -13,4 +13,16 @@ header {
     flex-direction: row;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
 
