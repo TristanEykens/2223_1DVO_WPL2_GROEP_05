@@ -30,7 +30,6 @@ header {
 
 header ul {
     display: flex;
-
     list-style-type: none;
 }
 
