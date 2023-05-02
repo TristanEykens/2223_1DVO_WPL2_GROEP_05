@@ -47,7 +47,7 @@ header ul li a:hover {
 
 #current_page {
     font-weight: bold;
-    color: #272425;
+    color: white;
 }
 
 #logo {
@@ -150,6 +150,7 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0 0 20px black;
 }
 
 .Waarom {
@@ -259,8 +260,9 @@ header ul li a:hover {
     box-shadow: 0 0 20px black;
     display: flex;
     text-align: center;
-    background: lightgray;
+    background: #22252A;
     padding: 30px;
+    color: white;
 }
 
 .container p {
@@ -269,7 +271,7 @@ header ul li a:hover {
 
 .container a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 10px;
 }
 
@@ -281,4 +283,13 @@ header ul li a:hover {
 }
 .Contact {
     width: 50%;
+}
+
+.Container_Subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #22252A;
+    padding: 30px;
+    color: white;
 }
