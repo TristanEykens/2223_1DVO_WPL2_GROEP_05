@@ -10,14 +10,16 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #F8B960;
+    font-family: Mr Alex;
+    font-size: 50px;
 }
 
 /* Header */
 header {
     width: 100%;
     height: 6rem;
-    background-color: #22252A;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,6 +39,15 @@ header ul li a {
     color: #f8b960;
     text-decoration: none;
     display: inline-block;
+}
+
+header ul li a:hover {
+    color: white;
+}
+
+#current_page {
+    font-weight: bold;
+    color: #272425;
 }
 
 #logo {
@@ -68,16 +79,55 @@ header ul li a {
     padding-left: 250px;
 }
 
+.Title {
+    color: white;
+    font-size: 85px;
+}
+
+.Title_smalltext {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.Knop-Bekijk-Ons-Aanbod {
+    margin: 1.5%;
+    background-color: #F8B960;
+    color: #272425;
+    border-width: 0px;
+    border-radius: 35px;
+    padding: 25px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Bekijk-Ons-Aanbod-Knop-Div {
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.Meest-bekeken-producten-div {
+    background-color: #FDEFDB;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .Products-front-page {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     background-color: #FDEFDB;
+    padding-top: 69px;
+    padding-bottom: 69px;
 }
 
 .Individueel-product-vakje {
-    background: #F8B960;
+    background: white;
     box-shadow: 0 0 20px black;
     padding: 2%;
     margin: 1%;
@@ -93,29 +143,6 @@ header ul li a {
     width: 25%;
 }
 
-.Bekijk-Ons-Aanbod-Knop-Div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 100px;
-}
-
-.Knop-Bekijk-Ons-Aanbod {
-    margin: 1.5%;
-    background-color: #F8B960;
-    color: White;
-    border-width: 0px;
-    border-radius: 35px;
-    padding: 15px;
-    width: 10%;
-    height: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 /* Deel 2: Info */
 .Uitleg {
     background-color: #22252A;
@@ -129,14 +156,24 @@ header ul li a {
     margin: 1.5%;
 }
 
+.Waarom_Titel {
+    padding-top: 5px;
+    padding-right: 250px;
+}
+
 .Waarom p {
     color: white;
     margin-bottom: 10%;
-    text-align: right;
+    padding-top: 35px;
 }
 
 .Waarom img {
     width: 70%;
+    padding: 35px;
+}
+
+.Inspiratie_Titel {
+    padding-left: 69%;
 }
 
 .inspiratie {
@@ -173,9 +210,14 @@ header ul li a {
 }
 
 /* Deel 3: Ervaringen */
+.Ervaringen {
+    background-color: #FDEFDB;
+}
+
 .Ervaringen_Titel {
     padding-top: 60px;
     padding-left: 140px;
+    color: black;
 }
 
 .info-chefs {
@@ -183,6 +225,7 @@ header ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .Info-chef-individueel {
