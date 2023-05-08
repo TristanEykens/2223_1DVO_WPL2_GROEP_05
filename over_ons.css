@@ -33,12 +33,12 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #272425;
+    color: white;
 }
 
 #current_page {
     font-weight: bold;
-    color: #272425;
+    color: white;
 }
 
 #logo {
@@ -103,8 +103,7 @@ main img {
 }
 
 #bottom_section p {
-    margin-left: 45%;
-
+    margin-left: 40%;
 }
 
 
