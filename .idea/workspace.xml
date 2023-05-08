@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Over_ons af exclusief footer">
+    <list default="true" id="c8c8ab7e-4143-4f3e-a82d-aabaccec77d0" name="Changes" comment="eerste change aan de webshop">
+      <change afterPath="$PROJECT_DIR$/assets/Image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webshop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2023_9_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_04_2023_9_22__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/over_ons.html" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voordelen.css" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voordelen.html" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bereiding.css" beforeDir="false" afterPath="$PROJECT_DIR$/bereiding.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bereiding.html" beforeDir="false" afterPath="$PROJECT_DIR$/bereiding.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,24 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/stijn/OneDrive/Bureaublad/Digitale_Vormgeving/Jaar2/Semester 1/Web Essentials/webessentials",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.reader.mode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/stijn/OneDrive/Bureaublad/Digitale_Vormgeving/Jaar2/Semester 1/Web Essentials/webessentials&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.reader.mode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets\icons" />
@@ -65,7 +68,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="" />
+      <changelist id="c8c8ab7e-4143-4f3e-a82d-aabaccec77d0" name="Changes" comment="eerste change aan de bereidingspagina" />
       <created>1681734366884</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -77,6 +80,7 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="6303000" />
       <workItem from="1683014626318" duration="5302000" />
+      <workItem from="1683546552734" duration="10682000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -143,6 +147,8 @@
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
     <MESSAGE value="Over_ons af exclusief footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Over_ons af exclusief footer" />
+    <MESSAGE value="eerste change aan de bereidingspagina" />
+    <MESSAGE value="eerste change aan de webshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="eerste change aan de webshop" />
   </component>
 </project>
