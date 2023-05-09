@@ -165,33 +165,36 @@ header ul li a:hover {
 }
 
 /* Deel 2: Info */
-.Uitleg {
+#Uitleg {
     background-color: #22252A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 20px black;
+   height: 600px;
+
+}
+#uitlegdiv {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-#Waarom {
-    margin: 1.5%;
-}
+
 
 #Waarom_Titel {
     padding-top: 5px;
-    padding-right: 250px;
 }
 
-#Waarom p {
+#Uitleg p {
     color: white;
-    margin-bottom: 10%;
-    padding-top: 35px;
+    padding-top: 25px;
+    font-size: 15pt;
+    font-weight: 300;
 }
 
-.Waarom img {
-    width: 70%;
-    padding: 35px;
+#Uitleg img {
+    width: 90%;
+    padding: 2rem;
+}
+
+#uitlegtekst {
+    padding: 2rem 0 2rem 6rem;
 }
 
 .Inspiratie_Titel {
