@@ -60,6 +60,14 @@ h1, h2 {
     background-color: transparent;
     color: white;
 }
+.card-body{
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.card-title {
+    color: #F8B960;
+    font-weight: bold;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -71,6 +79,8 @@ input{
     text-align: center;
     vertical-align: middle;
     border: none;
+    background-color: #272425;
+    color: white;
 }
 .btncat{
     background-color: #F8B960;
@@ -79,6 +89,7 @@ input{
     color: #22252A;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 1rem;
 }
 
 .btnmin {
@@ -97,8 +108,10 @@ input{
 }
 .btn-primary{
     background-color: #F8B960;
+    color: #272425;
     border: none;
 }
-.btn-primary:hover, .btnplus:hover, .btnmin:hover{
+.btn-primary:hover, .btnplus:hover, .btnmin:hover, .btncat:hover{
     background-color: #eaa236;
+    color: white;
 }
