@@ -7,6 +7,11 @@
 
 body {
     background-color: #22252A;
+    background-image: url("assets-pasta/home-head-less.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -58,12 +63,20 @@ header ul li a:hover {
 }
 
 /* Deel 1: Main */
+#hero {
+    background-image: url("assets-pasta/home-head-hero.png");
+    background-repeat: no-repeat;
+    background-position: 550px -120px;
+    background-size: 90%;
+    height: 800px;
+}
+
 .Titel_div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    margin: 2.5%;
+    padding: 7rem 0 1rem 8rem;
     text-align: Left;
     font-size: 35px;
     color: white;
@@ -76,11 +89,8 @@ header ul li a:hover {
 
 .Titel_div p {
     font-size: 15px;
-}
-
-.Titel_div img {
-    width: 100%;
-    padding-left: 250px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
 }
 
 .Title {
@@ -132,7 +142,7 @@ header ul li a:hover {
 
 .Individueel-product-vakje {
     background: white;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 2%;
     margin: 1%;
     border-radius: 25px;
