@@ -30,7 +30,13 @@ header {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 2rem;
     align-items: center;
+    font-weight: 340;
+}
+#homebut {
+    padding-left: 2rem;
+
 }
 
 header ul {
@@ -40,18 +46,19 @@ header ul {
 
 header ul li a {
     padding: 1rem;
-    color: #f8b960;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
 }
 
 header ul li a:hover {
-    color: white;
+    color: #f8b960;
+    font-weight: 400;
 }
 
 #current_page {
     font-weight: bold;
-    color: white;
+    color: #f8b960;
 }
 
 #logo {
