@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Navbar: done">
-      <change afterPath="$PROJECT_DIR$/bestellingsstatus.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bestellingsstatus.html" afterDir="false" />
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="klaarmaken voor carousel (mentaal)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682430240380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="klaarmaken voor carousel (mentaal)">
+      <created>1683636713995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683636713995</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="Stijn" />
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar: done" />
+    <MESSAGE value="klaarmaken voor carousel (mentaal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="klaarmaken voor carousel (mentaal)" />
   </component>
 </project>

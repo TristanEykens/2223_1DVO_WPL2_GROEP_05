@@ -68,13 +68,18 @@ header ul li a:hover {
     font-size: 35px;
     color: white;
 }
+#hero {
+    background-image: url("assets-pasta/home-head.png");
+    background-size: 100%;
+    
+}
 
 .Titel_div p {
     font-size: 15px;
 }
 
 .Titel_div img {
-    width: 80%;
+    width: 100%;
     padding-left: 250px;
 }
 
