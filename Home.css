@@ -7,6 +7,11 @@
 
 body {
     background-color: #22252A;
+    background-image: url("assets-pasta/home-head-less.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -58,12 +63,20 @@ header ul li a:hover {
 }
 
 /* Deel 1: Main */
+#hero {
+    background-image: url("assets-pasta/home-head-hero.png");
+    background-repeat: no-repeat;
+    background-position: 550px -120px;
+    background-size: 90%;
+    height: 800px;
+}
+
 .Titel_div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    margin: 2.5%;
+    padding: 7rem 0 1rem 8rem;
     text-align: Left;
     font-size: 35px;
     color: white;
@@ -71,12 +84,10 @@ header ul li a:hover {
 
 .Titel_div p {
     font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
 }
 
-.Titel_div img {
-    width: 80%;
-    padding-left: 250px;
-}
 
 .Title {
     color: white;
