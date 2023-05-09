@@ -138,7 +138,7 @@ header ul li a:hover {
 
 .Individueel-product-vakje {
     background: white;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 2%;
     margin: 1%;
     border-radius: 25px;
