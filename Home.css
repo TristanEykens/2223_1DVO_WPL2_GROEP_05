@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: #F8B960;
-    font-family: Mr Alex;
+    font-family: Mr Alex, sans-serif;
     font-size: 50px;
 }
 
@@ -95,7 +95,7 @@ header ul li a:hover {
 }
 
 .Titel_div p {
-    font-size: 15px;
+    font-size: 16px;
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
@@ -115,7 +115,7 @@ header ul li a:hover {
     margin: 1.5%;
     background-color: #F8B960;
     color: #272425;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 25px;
     height: 15px;
@@ -174,16 +174,16 @@ header ul li a:hover {
     box-shadow: 0 0 20px black;
 }
 
-.Waarom {
+#Waarom {
     margin: 1.5%;
 }
 
-.Waarom_Titel {
+#Waarom_Titel {
     padding-top: 5px;
     padding-right: 250px;
 }
 
-.Waarom p {
+#Waarom p {
     color: white;
     margin-bottom: 10%;
     padding-top: 35px;
@@ -214,7 +214,7 @@ header ul li a:hover {
     margin: 1%;
     background-color: #F8B960;
     color: white;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 15px;
     width: 30%;
