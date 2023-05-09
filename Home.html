@@ -5,46 +5,47 @@
     <title>HomePage</title>
     <link rel="stylesheet" href="Home.css">
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
 </head>
 <body>
 <article id="hero">
-<header>
-    <div>
-        <a href="./Home.html"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
-    </div>
-    <ul>
-        <li><a href="./Home.html" id="current_page">Home</a></li>
-        <li><a href="#">Producten</a></li>
-        <li><a href="./voordelen.html">Voordelen</a></li>
-        <li><a href="#">Bereiding</a></li>
-        <li><a href="./over_ons.html">Over ons</a></li>
-        <li><a href="./Contactpagina.html">Contact</a></li>
-    </ul>
-    <div>
-        <a href="#"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
-        <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
-    </div>
-</header>
+    <header>
+        <div id="homebut">
+            <a href="./Home.html"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
+        </div>
+        <ul>
+            <li><a href="./Home.html" id="current_page">Home</a></li>
+            <li><a href="#">Producten</a></li>
+            <li><a href="./voordelen.html">Voordelen</a></li>
+            <li><a href="#">Bereiding</a></li>
+            <li><a href="./over_ons.html">Over ons</a></li>
+            <li><a href="./Contactpagina.html">Contact</a></li>
+        </ul>
+        <div>
+            <a href="#"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
+            <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
+        </div>
+    </header>
 
-<div class="Titel_div">
-    <table>
-        <tr>
-            <td class="Title_td">
-                <h1 class="Title">The Fresh<br>Answer!</h1>
-                <p class="Title_smalltext">Pasta Fresca biedt een verse oplossing voor een
-                    snelle en handige<br>
-                    manier om kwaliteitsvolle pasta klaar te maken zonder<br>
-                    bewaarmiddelen. Dit doen we aan de hand van een optimale <br>
-                    webshop, snelle levering en een unieke verpakkingstechniek die <br>
-                    het de klant nog makkelijker maakt!
-                </p>
-                <div class="Bekijk-Ons-Aanbod-Knop-Div">
-                    <button class="Knop-Bekijk-Ons-Aanbod">Bekijk ons volledig aanbod</button>
-                </div>
-            </td>
-        </tr>
-    </table>
-</div>
+    <div class="Titel_div">
+        <table>
+            <tr>
+                <td class="Title_td">
+                    <h1 class="Title">The Fresh<br>Answer!</h1>
+                    <p class="Title_smalltext">Pasta Fresca biedt een verse oplossing voor een
+                        snelle en handige<br>
+                        manier om kwaliteitsvolle pasta klaar te maken zonder<br>
+                        bewaarmiddelen. Dit doen we aan de hand van een optimale <br>
+                        webshop, snelle levering en een unieke verpakkingstechniek die <br>
+                        het de klant nog makkelijker maakt!
+                    </p>
+                    <div class="Bekijk-Ons-Aanbod-Knop-Div">
+                        <button class="Knop-Bekijk-Ons-Aanbod">Bekijk ons volledig aanbod</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 </article>
 
 <div class="Meest-bekeken-producten-div">
@@ -86,33 +87,24 @@
 </div>
 
 
-<div class="Uitleg">
-    <div class="Waarom">
-        <table>
-            <tr>
-                <td>
-                    <h1 class="Waarom_Titel">Waarom Pasta Fresca?</h1>
-                    <p>Pasta Fresca biedt een verse oplossing voor een<br>
-                        snelle en handig manier om kwaliteitsvolle<br>
-                        pasta klaar te maken zonder bewaarmiddelen.<br>
-                        Dit doen we aan de hand van een optimale webshop,<br>
-                        snelle levering en een unieke verpakkingstechniek<br>
-                        die het de klant nog makkelijker maakt!
-                    </p>
-                </td>
-                <td>
-                    <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <h1 class="Inspiratie_Titel">Laat je inspireren!</h1>
-    <div class="inspiratie">
-        <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-        <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-        <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
+<div id="Uitleg" class="container-fluid">
+    <div class="row" id="uitlegdiv">
+        <div class="col-6" id="uitlegtekst">
+            <h1 id="Waarom_Titel">Waarom Pasta Fresca?</h1>
+            <p>Pasta Fresca biedt een verse oplossing voor een<br>
+                snelle en handig manier om kwaliteitsvolle<br>
+                pasta klaar te maken zonder bewaarmiddelen.<br>
+                Dit doen we aan de hand van een optimale webshop,<br>
+                snelle levering en een unieke verpakkingstechniek<br>
+                die het de klant nog makkelijker maakt!
+            </p>
+        </div>
+        <div class="col-6">
+            <a href="#"><img src="assets-pasta/ambient-people1.png" alt="Logo"></a>
+        </div>
     </div>
 </div>
+<h1 class="Inspiratie_Titel">Laat je inspireren!</h1>
 
 <div class="Ervaringen">
     <h1 class="Ervaringen_Titel">Ervaringen</h1>

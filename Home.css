@@ -16,7 +16,7 @@ body {
 
 h1 {
     color: #F8B960;
-    font-family: Mr Alex;
+    font-family: Mr Alex, sans-serif;
     font-size: 50px;
 }
 
@@ -30,7 +30,13 @@ header {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 2rem;
     align-items: center;
+    font-weight: 340;
+}
+#homebut {
+    padding-left: 2rem;
+
 }
 
 header ul {
@@ -40,18 +46,19 @@ header ul {
 
 header ul li a {
     padding: 1rem;
-    color: #f8b960;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
 }
 
 header ul li a:hover {
-    color: white;
+    color: #f8b960;
+    font-weight: 400;
 }
 
 #current_page {
     font-weight: bold;
-    color: white;
+    color: #f8b960;
 }
 
 #logo {
@@ -82,13 +89,13 @@ header ul li a:hover {
     color: white;
 }
 #hero {
-    background-image: url("assets-pasta/home-head.png");
+    background-image: url("assets-pasta/home-head-hero.png");
     background-size: 100%;
     
 }
 
 .Titel_div p {
-    font-size: 15px;
+    font-size: 16px;
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
@@ -108,7 +115,7 @@ header ul li a:hover {
     margin: 1.5%;
     background-color: #F8B960;
     color: #272425;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 25px;
     height: 15px;
@@ -158,33 +165,36 @@ header ul li a:hover {
 }
 
 /* Deel 2: Info */
-.Uitleg {
+#Uitleg {
     background-color: #22252A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 20px black;
+   height: 600px;
+
+}
+#uitlegdiv {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.Waarom {
-    margin: 1.5%;
-}
 
-.Waarom_Titel {
+
+#Waarom_Titel {
     padding-top: 5px;
-    padding-right: 250px;
 }
 
-.Waarom p {
+#Uitleg p {
     color: white;
-    margin-bottom: 10%;
-    padding-top: 35px;
+    padding-top: 25px;
+    font-size: 15pt;
+    font-weight: 300;
 }
 
-.Waarom img {
-    width: 70%;
-    padding: 35px;
+#Uitleg img {
+    width: 90%;
+    padding: 2rem;
+}
+
+#uitlegtekst {
+    padding: 2rem 0 2rem 6rem;
 }
 
 .Inspiratie_Titel {
@@ -207,7 +217,7 @@ header ul li a:hover {
     margin: 1%;
     background-color: #F8B960;
     color: white;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 15px;
     width: 30%;
