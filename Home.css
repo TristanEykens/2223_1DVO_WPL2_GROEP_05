@@ -7,11 +7,16 @@
 
 body {
     background-color: #22252A;
+    background-image: url("assets-pasta/home-head-less.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 h1 {
     color: #F8B960;
-    font-family: Mr Alex;
+    font-family: Mr Alex, sans-serif;
     font-size: 50px;
 }
 
@@ -25,7 +30,13 @@ header {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 2rem;
     align-items: center;
+    font-weight: 340;
+}
+#homebut {
+    padding-left: 2rem;
+
 }
 
 header ul {
@@ -35,18 +46,19 @@ header ul {
 
 header ul li a {
     padding: 1rem;
-    color: #f8b960;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
 }
 
 header ul li a:hover {
-    color: white;
+    color: #f8b960;
+    font-weight: 400;
 }
 
 #current_page {
     font-weight: bold;
-    color: white;
+    color: #f8b960;
 }
 
 #logo {
@@ -58,24 +70,34 @@ header ul li a:hover {
 }
 
 /* Deel 1: Main */
+#hero {
+    background-image: url("assets-pasta/home-head-hero.png");
+    background-repeat: no-repeat;
+    background-position: 550px -120px;
+    background-size: 90%;
+    height: 800px;
+}
+
 .Titel_div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    margin: 2.5%;
+    padding: 7rem 0 1rem 8rem;
     text-align: Left;
     font-size: 35px;
     color: white;
 }
-
-.Titel_div p {
-    font-size: 15px;
+#hero {
+    background-image: url("assets-pasta/home-head-hero.png");
+    background-size: 100%;
+    
 }
 
-.Titel_div img {
-    width: 80%;
-    padding-left: 250px;
+.Titel_div p {
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
 }
 
 .Title {
@@ -93,7 +115,7 @@ header ul li a:hover {
     margin: 1.5%;
     background-color: #F8B960;
     color: #272425;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 25px;
     height: 15px;
@@ -127,7 +149,7 @@ header ul li a:hover {
 
 .Individueel-product-vakje {
     background: white;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 2%;
     margin: 1%;
     border-radius: 25px;
@@ -143,33 +165,36 @@ header ul li a:hover {
 }
 
 /* Deel 2: Info */
-.Uitleg {
+#Uitleg {
     background-color: #22252A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 20px black;
+   height: 600px;
+
+}
+#uitlegdiv {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.Waarom {
-    margin: 1.5%;
-}
 
-.Waarom_Titel {
+
+#Waarom_Titel {
     padding-top: 5px;
-    padding-right: 250px;
 }
 
-.Waarom p {
+#Uitleg p {
     color: white;
-    margin-bottom: 10%;
-    padding-top: 35px;
+    padding-top: 25px;
+    font-size: 15pt;
+    font-weight: 300;
 }
 
-.Waarom img {
-    width: 70%;
-    padding: 35px;
+#Uitleg img {
+    width: 90%;
+    padding: 2rem;
+}
+
+#uitlegtekst {
+    padding: 2rem 0 2rem 6rem;
 }
 
 .Inspiratie_Titel {
@@ -192,7 +217,7 @@ header ul li a:hover {
     margin: 1%;
     background-color: #F8B960;
     color: white;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 35px;
     padding: 15px;
     width: 30%;
