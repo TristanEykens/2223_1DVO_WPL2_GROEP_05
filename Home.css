@@ -167,7 +167,6 @@ header ul li a:hover {
 /* Deel 2: Info */
 #Uitleg {
     background-color: #22252A;
-   height: 600px;
 
 }
 #uitlegdiv {
@@ -199,20 +198,8 @@ header ul li a:hover {
 
 .Inspiratie_Titel {
     padding-left: 69%;
+    padding-bottom: 2rem;
 }
-
-.inspiratie {
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    align-items: center;
-    margin: 2.5%;
-}
-
-.inspiratie img {
-    width: 10%;
-}
-
 .Uitleg-voordelen-button{
     margin: 1%;
     background-color: #F8B960;
@@ -237,6 +224,7 @@ header ul li a:hover {
 /* Deel 3: Ervaringen */
 .Ervaringen {
     background-color: #FDEFDB;
+    height: 500px;
 }
 
 .Ervaringen_Titel {
