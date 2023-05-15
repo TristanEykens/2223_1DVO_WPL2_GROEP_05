@@ -187,7 +187,7 @@ header ul li a:hover {
     font-weight: 300;
 }
 
-#Uitleg img {
+#uitlegdiv img {
     width: 90%;
     padding: 2rem;
 }
@@ -200,6 +200,33 @@ header ul li a:hover {
     padding-left: 69%;
     padding-bottom: 2rem;
 }
+
+.inspiratie img {
+    width: 100%;
+    padding: 0;
+}
+
+.inspiratie button {
+
+}
+
+#insp1 {
+    background-image: url("assets-pasta/ambient-food1.png");
+    background-size: cover;
+    height: 283px;
+}
+#insp2 {
+    background-image: url("assets-pasta/ambient-food2.png");
+    background-size: cover;
+    height: 283px;
+}
+#insp3 {
+    background-image: url("assets-pasta/ambient-food3.png");
+    background-size: cover;
+    height: 283px;
+}
+
+
 .Uitleg-voordelen-button{
     margin: 1%;
     background-color: #F8B960;
@@ -215,11 +242,7 @@ header ul li a:hover {
 
 }
 
-.info-container {
-    margin: 5%;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 /* Deel 3: Ervaringen */
 .Ervaringen {
