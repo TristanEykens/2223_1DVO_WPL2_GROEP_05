@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+body {
+    background-color: #22252A;
+}
+h1 {
+    color: #F8B960;
+    font-family: Mr Alex;
+    font-size: 50px;
+}
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li a {
+    padding: 1rem;
+    color: #f8b960;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: white;
+}
+#current_page {
+    font-weight: bold;
+    color: white;
+}
+
+#logo {
+    width: 8rem;
+}
+
+.icons {
+    width: 3rem;
+}
+
+.contactinfo{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #F8B960;
+    font-size: medium;
+}
+
+.checkout-form label {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.checkout-form input {
+    display: inline-block;
+    width: 65%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input {
+    width:100% !important;
+}
+
+.lbl_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.lbl_row {
+    margin-left: 2%;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+label {
+    color: #F8B960;
+}
+.leveringsinfo {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #F8B960;
+    font-size: medium;
+}
+
+.lbl_column_small input {
+width: 150px !important;
+}
+
+.apt {
+    width: 250px !important;
+}
+.betaalmethode{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #F8B960;
+    font-size: medium;
+}
+.btn {
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+    background-color: #666;
+    color: white;
+}
+.checkout-button{
+    margin-left: 50rem;
+}
+.p-2 {
+    width: 85%;
+}
+
+.cart-item {
+    margin-bottom: 1rem;
+}
+
+.product-value {
+    margin-top: 1rem;
+}
+
+.total {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main_contents {
+    display: flex;
+    flex-direction: row !important;
+}
+.quantity-controls button{
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+}
+.remove-btn{
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #F8B960;
+
+}
+.product-value{
+    margin-left: 150px;
+    font-size: 20px;
+}

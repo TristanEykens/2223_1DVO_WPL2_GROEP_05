@@ -13,6 +13,7 @@ body {
 header {
     width: 100%;
     height: 6rem;
+    background-color: #22252A;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -35,6 +36,143 @@ header ul li a {
     display: inline-block;
 }
 
+#logo {
+    width: 8rem;
+}
+
+.icons {
+    width: 3rem;
+}
+
+body {
+    background-color: #272424;
+}
+
+
+/* main */
+main {
+    background-color: #272424;
+}
+
+#receptenTitel {
+    color: #F8B960;
+    margin: 100px auto auto 100px;
+}
+
+.recepten {
+    margin: 0 50px;
+}
+
+.recept {
+    border-radius: 45px;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: center;
+    aspect-ratio: 1 / 1.25;
+    margin: 50px 30px;
+}
+
+.NaamGerecht {
+    margin-top: 300px;
+}
+
+#recept1 {
+    background-image: url("assets/Pasta's/carbonara.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#recept2 {
+    background-image: url("assets/Pasta's/pasta gehakt pesto.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#recept3 {
+    background-image: url("assets/Pasta's/mac cheese.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#recept4 {
+    background-image: url("assets/Pasta's/kip jambalaya rijst.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#recept5 {
+    background-image: url("assets/Pasta's/Rijst sweet chilli kip.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#recept6 {
+    background-image: url("assets/Pasta's/italiaanse rijstsalade.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+#tips\&tricks {
+    color: #F8B960;
+    margin: 50px auto auto 100px;
+}
+
+ol {
+    color: #FFFFFF;
+}
+
+.tip {
+    margin: 50px 0;
+}
+
+/* footer */
+.container-fluid {
+    box-shadow: 0 0 20px black;
+    display: flex;
+    text-align: center;
+    background: #22252A;
+    padding: 30px;
+    color: white;
+    margin-top: 150px;
+}
+
+.container-fluid p {
+    padding: 0 45px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.Extra-nav {
+    width: 50%;
+}
+
+.Ons-aanbod {
+    width: 50%;
+}
+
+.Contact {
+    width: 50%;
+}
+
+.Container_Subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #22252A;
+    padding: 30px;
+    color: white;
+}
+
 header ul li a:hover {
     color: white;
 }
@@ -51,3 +189,4 @@ header ul li a:hover {
 .icons {
     width: 3rem;
 }
+
