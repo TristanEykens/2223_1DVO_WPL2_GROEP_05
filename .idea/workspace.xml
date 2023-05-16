@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="inspiratie aanpassen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="footer wijziging">
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
       <workItem from="1684151133876" duration="3967000" />
-      <workItem from="1684219570191" duration="110000" />
+      <workItem from="1684219570191" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684164385287</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="footer wijziging">
+      <created>1684220806829</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684220806829</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="home hero" />
     <MESSAGE value="header fixes" />
     <MESSAGE value="inspiratie aanpassen" />
-    <option name="LAST_COMMIT_MESSAGE" value="inspiratie aanpassen" />
+    <MESSAGE value="footer wijziging" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer wijziging" />
   </component>
 </project>

@@ -125,6 +125,12 @@ header ul li a:hover {
     flex-direction: row;
 }
 
+.Knop-Bekijk-Ons-Aanbod:hover {
+    cursor: pointer;
+    background-color: #e7a344;
+    padding: 29px;
+}
+
 .Bekijk-Ons-Aanbod-Knop-Div {
     flex-direction: column;
     padding-bottom: 100px;
