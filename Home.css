@@ -54,6 +54,7 @@ header ul li a {
 header ul li a:hover {
     color: #f8b960;
     font-weight: 400;
+    text-decoration: underline;
 }
 
 #current_page {
@@ -129,6 +130,7 @@ header ul li a:hover {
     cursor: pointer;
     background-color: #e7a344;
     padding: 29px;
+    color: #f8e8be;
 }
 
 .Bekijk-Ons-Aanbod-Knop-Div {
@@ -213,23 +215,33 @@ header ul li a:hover {
 }
 
 .inspiratie button {
-
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.22);
 }
 
 #insp1 {
     background-image: url("assets-pasta/ambient-food1.png");
     background-size: cover;
-    height: 283px;
+    height: 350px;
+    position: relative;
+
 }
 #insp2 {
     background-image: url("assets-pasta/ambient-food2.png");
     background-size: cover;
-    height: 283px;
+    height: 350px;
+    position: relative;
 }
 #insp3 {
     background-image: url("assets-pasta/ambient-food3.png");
     background-size: cover;
     height: 283px;
+    position: relative;
 }
 
 
@@ -253,7 +265,7 @@ header ul li a:hover {
 /* Deel 3: Ervaringen */
 .Ervaringen {
     background-color: #FDEFDB;
-    height: 500px;
+    height: 600px;
 }
 
 .Ervaringen_Titel {
@@ -272,16 +284,26 @@ header ul li a:hover {
 
 .Info-chef-individueel {
     background: white;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
     padding: 2%;
-    height: 60%;
+    height: 300px;
     width: 25%;
     margin: 2.69%;
     border-radius: 25px;
 }
 
 .Info-chef-individueel p {
-    padding: 0 45px;
+    padding: 20px 10px;
+    font-style: italic;
+    color: #6c757d;
+
+}
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.avatar h2 {
+    margin-left: 1rem;
 }
 
 .Info-chef-individueel img {

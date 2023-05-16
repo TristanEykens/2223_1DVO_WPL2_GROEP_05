@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="footer wijziging">
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="button hover">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,7 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
       <workItem from="1684151133876" duration="3967000" />
-      <workItem from="1684219570191" duration="400000" />
+      <workItem from="1684219570191" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684220806829</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="button hover">
+      <created>1684221192079</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684221192079</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +202,7 @@
     <MESSAGE value="header fixes" />
     <MESSAGE value="inspiratie aanpassen" />
     <MESSAGE value="footer wijziging" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer wijziging" />
+    <MESSAGE value="button hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="button hover" />
   </component>
 </project>
