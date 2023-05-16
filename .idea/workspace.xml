@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Navbar: done">
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Update over ons en voordelen pagina">
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-people5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-people6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Beeldspraak1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Beeldspraak1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/over_ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/over_ons.html" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voordelen.css" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voordelen.html" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +65,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets-pasta" />
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets\icons" />
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets" />
       <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\teamleden" />
       <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05" />
-      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\Tristan" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +86,8 @@
       <workItem from="1682425376431" duration="8018000" />
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
+      <workItem from="1684180814798" duration="125000" />
+      <workItem from="1684219070763" duration="8988000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>

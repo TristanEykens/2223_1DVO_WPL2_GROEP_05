@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Lato, sans-serif;
-
+    color: white;
 }
 
 /* Header */
@@ -60,30 +60,26 @@ main h1 {
     font-size: 46px;
     margin-bottom: 2rem;
     text-align: center;
+    font-weight: bold;
 }
 
+/* Top section */
 #top_section {
-    display: flex;
-    flex-direction: row;
-}
-
-#top_section article {
-    width: 33%;
-    margin: 0 auto;
-
-
+    margin-bottom: 6rem;
+    width: 90%;
 }
 
 #top_section img {
-    width: 12rem;
-    height: 15rem;
-    border-radius: 1rem;
-
+    width: 100%;
+    height: 10rem;
+    margin: 1.5rem auto;
+    object-fit: cover;
 }
 
 #top_section h3 {
     color: #F8B960;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 #top_section p {
@@ -91,7 +87,49 @@ main h1 {
     text-align: center;
 }
 
+/* Mid section */
+#mid_section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
 
+#mid_section h1 {
+    margin-bottom: 3rem;
+}
+
+#mid_section h2 {
+    color: #f8b960;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#mid_section img {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.upper_row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.3rem;
+}
+
+.review_date {
+    color: grey;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+}
+
+.client_since {
+    font-weight: bold;
+}
+
+#upper_mid_section {
+    margin-bottom: 5rem;
+}
 
 /* Star rating reviews */
 .star-rating input {
@@ -121,3 +159,24 @@ main h1 {
     flex-direction: row-reverse;
 }
 
+/* Bottom section */
+#bottom_section {
+    margin-bottom: 6rem;
+    width: 90%;
+}
+
+#bottom_section img {
+    width: 100%;
+    margin: 1.5rem auto;
+}
+
+#bottom_section h3 {
+    color: #F8B960;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#bottom_section p {
+    color: white;
+    text-align: center;
+}
