@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="ervaringen">
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="header nevigatie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
       <workItem from="1684151133876" duration="3967000" />
-      <workItem from="1684219570191" duration="4429000" />
+      <workItem from="1684219570191" duration="5120000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684228818410</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="header nevigatie">
+      <created>1684231171461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684231171461</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +217,7 @@
     <MESSAGE value="footer wijziging" />
     <MESSAGE value="button hover" />
     <MESSAGE value="ervaringen" />
-    <option name="LAST_COMMIT_MESSAGE" value="ervaringen" />
+    <MESSAGE value="header nevigatie" />
+    <option name="LAST_COMMIT_MESSAGE" value="header nevigatie" />
   </component>
 </project>

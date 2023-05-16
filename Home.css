@@ -180,6 +180,10 @@ header i:hover {
 /* Deel 2: Info */
 #Uitleg {
     background-color: #22252A;
+    background-image: url("assets-pasta/fork_PNG3064.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 100px 400px;
 
 }
 #uitlegdiv {
