@@ -291,7 +291,7 @@ header ul li a:hover {
 }
 
 /* Deel 4: footer */
-.container {
+.foot {
     box-shadow: 0 0 20px black;
     display: flex;
     text-align: center;
@@ -300,14 +300,14 @@ header ul li a:hover {
     color: white;
 }
 
-.container p {
+.foot p {
     padding: 0 45px;
 }
 
-.container a {
+.foot a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .Extra-nav {
