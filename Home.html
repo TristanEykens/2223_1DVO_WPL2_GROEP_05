@@ -5,7 +5,9 @@
     <title>HomePage</title>
     <link rel="stylesheet" href="Home.css">
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <script defer src="script-home.js"></script>
 </head>
 <body>
 <article id="hero">
@@ -22,8 +24,8 @@
             <li><a href="./Contactpagina.html">Contact</a></li>
         </ul>
         <div>
-            <a href="#"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
-            <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="./Login.html"><i class="fa-solid fa-user"></i></a>
         </div>
     </header>
 
@@ -48,43 +50,8 @@
     </div>
 </article>
 
-<div class="Meest-bekeken-producten-div">
-    <p>Meest bekeken producten</p>
-    <div class="Products-front-page">
-        <div class="Individueel-product-vakje">
-            <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-                <h2>Fusilli</h2>
-                <p>super lekkere Pasta</p>
-                <p>5$</p>
-            </div>
-        </div>
-        <div class="Individueel-product-vakje">
-            <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-                <h2>Cappellini</h2>
-                <p>Heerlijke pasta</p>
-                <p>5$</p>
-            </div>
-        </div>
-        <div class="Individueel-product-vakje">
-            <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-                <h2>Bolognese Saus</h2>
-                <p>Gewoon prachtig</p>
-                <p>5$</p>
-            </div>
-        </div>
-        <div class="Individueel-product-vakje">
-            <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
-                <h2>Witte Rijst</h2>
-                <p>Gewoon prachtig</p>
-                <p>5$</p>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 
 
 <div id="Uitleg" class="container-fluid">
@@ -103,38 +70,69 @@
             <a href="#"><img src="assets-pasta/ambient-people1.png" alt="Logo"></a>
         </div>
     </div>
+
+    <h1 class="Inspiratie_Titel">Laat je inspireren!</h1>
+    <div class="container-fluid inspiratie">
+        <div class="row">
+            <div class="col-6">
+                <div id="insp1">
+                    <button class="Knop-Bekijk-Ons-Aanbod">Bekijk ons volledig aanbod</button>
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div id="insp2">
+                    <button class="Knop-Bekijk-Ons-Aanbod">Bekijk ons volledig aanbod</button>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-4 pb-4">
+            <div class="col-12  ">
+                <div id="insp3">
+                    <button class="Knop-Bekijk-Ons-Aanbod">Bekijk ons volledig aanbod</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
-<h1 class="Inspiratie_Titel">Laat je inspireren!</h1>
+
 
 <div class="Ervaringen">
     <h1 class="Ervaringen_Titel">Ervaringen</h1>
     <div class="info-chefs">
         <div class="Info-chef-individueel">
             <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
+                <div class="avatar">
+                <img src="assets-pasta/avatar1.png" alt="Logo">
                 <h2>Linda</h2>
-                <p>super lekkere pasta</p>
+                </div>
+                <p>"Sinds ik beste bij Pasta Fresca heb ik meer tijd om mij bezig te houden met mijn klanten. Pasta fresca geeft mij de mogelijkheid om nog meer te groeien als chef doormiddel van hun snelle bereidingswijze en levering."</p>
             </div>
         </div>
         <div class="Info-chef-individueel">
             <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
+                <div class="avatar">
+                <img src="assets-pasta/avatar2.png" alt="Logo">
                 <h2>Brahim</h2>
-                <p>Heerlijke pasta</p>
+                </div>
+                <p>"Ik was eerst sceptisch over pasta fresca omdat ik niet geloofde dat ze zo goede kwaliteit konden levern. Nadat ik meer info over hun opzecht en hun bedrijfethiek had doorgenomen heb ik toch een bestelling geplaatst en sindsdien nog altijd trouwe klant."</p>
             </div>
         </div>
         <div class="Info-chef-individueel">
             <div>
-                <a href="#"><img src="assets/ImageIcon.png" alt="Logo"></a>
+                <div class="avatar">
+                <img src="assets-pasta/avatar3.png" alt="Logo">
                 <h2>Jos</h2>
-                <p>Gewoon prachtig</p>
+                </div>
+                <p>"Ik ben zelfstandige zaakvoerder en soms verlies ik veel tijd met bestellen en aankoop van voeding. Pasta Fresca helpt me enorm hiermee. Bestellen is zo gemakkelijk en levering gebeurt de zelfde week nog. Ze stellen ook voor jou een bestelschema op. Een echte aanrader."</p>
             </div>
         </div>
     </div>
 </div>
 
 <div class="footer">
-    <div class="container">
+    <div class="container-fluid foot">
         <div class="Extra-nav">
             <h4>Pasta Fresca</h4> <br>
             <p>Home</p>
