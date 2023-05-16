@@ -66,8 +66,13 @@ header ul li a:hover {
     width: 8rem;
 }
 
-.icons {
+header i {
     width: 3rem;
+    color: #ffffff;
+    font-size: 20pt;
+}
+header i:hover {
+    color: #f8b960;
 }
 
 /* Deel 1: Main */
@@ -129,7 +134,7 @@ header ul li a:hover {
 .Knop-Bekijk-Ons-Aanbod:hover {
     cursor: pointer;
     background-color: #e7a344;
-    padding: 29px;
+    padding: 27px;
     color: #f8e8be;
 }
 
