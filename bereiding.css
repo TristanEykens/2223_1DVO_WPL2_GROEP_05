@@ -9,12 +9,12 @@ body {
     background-color: #22252A;
 }
 
-
 /* Header */
 header {
     width: 100%;
     height: 6rem;
     background-color: #22252A;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -183,3 +183,21 @@ ol {
     padding: 30px;
     color: white;
 }
+
+header ul li a:hover {
+    color: white;
+}
+
+#current_page {
+    font-weight: bold;
+    color: white;
+}
+
+#logo {
+    width: 8rem;
+}
+
+.icons {
+    width: 3rem;
+}
+
