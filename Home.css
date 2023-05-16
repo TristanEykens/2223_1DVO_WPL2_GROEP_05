@@ -143,39 +143,7 @@ header i:hover {
     padding-bottom: 100px;
 }
 
-.Meest-bekeken-producten-div {
-    background-color: #FDEFDB;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
-.Products-front-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    background-color: #FDEFDB;
-    padding-top: 69px;
-    padding-bottom: 69px;
-}
-
-.Individueel-product-vakje {
-    background: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 2%;
-    margin: 1%;
-    border-radius: 25px;
-    flex-direction: row;
-}
-
-.Individueel-product-vakje p {
-    padding: 0 45px;
-}
-
-.Individueel-product-vakje img {
-    width: 25%;
-}
 
 /* Deel 2: Info */
 #Uitleg {
