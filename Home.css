@@ -146,6 +146,16 @@ header i:hover {
 
 
 /* Deel 2: Info */
+.meest {
+    color: #e7a344;
+    background-color: #22252A;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    font-size: 20pt;
+}
+
+
+
 #Uitleg {
     background-color: #22252A;
     background-image: url("assets-pasta/fork_PNG3064.png");
