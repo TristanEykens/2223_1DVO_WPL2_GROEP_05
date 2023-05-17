@@ -338,11 +338,10 @@ header i:hover {
 /* Carousel*/
 
 .artkaroe{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f2f2f2;
+    background-color: #22252A;
 }
 .karoe{
     position: relative;
@@ -356,17 +355,18 @@ header i:hover {
 }
 .card{
     position: relative;
-    background: #fff;
+    background: #f9f9ff;
     border-radius: 20px;
     margin: 20px 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: grab;
 }
 .card::before{
     content: "";
     position: absolute;
     height: 40%;
     width: 100%;
-    background: #f1f1f3;
+    background: #ececf1;
     border-radius: 20px 20px 0 0;
 }
 .card .card-content{
@@ -383,6 +383,7 @@ header i:hover {
     border-radius: 50%;
     padding: 3px;
     background: #F8B960;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.15);
 }
 .karoe .card .image img{
     height: 100%;
@@ -399,13 +400,7 @@ header i:hover {
     flex-direction: column;
     align-items: center;
 }
-.card .media-icons i{
-    color: #fff;
-    opacity: 0.6;
-    margin-top: 10px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
+
 .card .media-icons i:hover{
     opacity: 1;
 }
@@ -437,22 +432,24 @@ header i:hover {
 .card .button{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
 }
 .card .button button{
     background: #F8B960;
     outline: none;
     border: none;
-    color: #fff;
-    padding: 8px 22px;
+    color: #22252A;
+    padding: 10px 25px;
     border-radius: 20px;
     font-size: 14px;
     transition: all 0.3s ease;
     cursor: pointer;
+    margin: 5px;
 }
 .button button:hover{
-    background: #6616d0;
+    background: #e59320;
+    color: #fff;
 }
 .swiper-pagination{
     position: absolute;
@@ -461,7 +458,7 @@ header i:hover {
     height: 7px;
     width: 26px;
     border-radius: 25px;
-    background: #F8B960;
+    background-color: #F8B960;
 }
 .swiper-button-next, .swiper-button-prev{
     opacity: 0.7;
@@ -470,5 +467,5 @@ header i:hover {
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
-    color: #7d2ae8;
+    color: #f5d4a8;
 }
