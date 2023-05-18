@@ -72,8 +72,19 @@ main {
     margin: 50px 30px;
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 45px;
+}
+
+a:hover {
+    color: #bebebe;
+}
+
 .NaamGerecht {
-    margin-top: 300px;
+    margin-top: 85%;
 }
 
 #recept1 {

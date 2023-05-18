@@ -87,9 +87,8 @@ input{
     border: none;
     border-radius: 10px;
     color: #22252A;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1rem;
+    padding: .2rem 1rem;
+    text-decoration: none;
 }
 
 .btnmin {
@@ -114,4 +113,21 @@ input{
 .btn-primary:hover, .btnplus:hover, .btnmin:hover, .btncat:hover{
     background-color: #eaa236;
     color: white;
+}
+
+@media (max-width: 575.98px) {
+    .card-img-top{
+        height: 14rem;
+        width: auto;
+    }
+    .phonesizesmall{
+        width: 18rem;
+        margin: auto 0;
+    }
+    .card-text{
+        width: 20rem;
+    }
+    .card-title{
+        margin-top: 1rem;
+    }
 }
