@@ -5,15 +5,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="bereiding update en individuele receptpagina">
 
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="header nevigatie">
       <change afterPath="$PROJECT_DIR$/script-home.js" afterDir="false" />
-=======
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="fre &lt;p&gt; test">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bereiding.css" beforeDir="false" afterPath="$PROJECT_DIR$/bereiding.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bereiding.html" beforeDir="false" afterPath="$PROJECT_DIR$/bereiding.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stijn/OneDrive/Bureaublad/Digitale_Vormgeving/Jaar2/Semester 1/Web Essentials/webessentials&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/holtz/Documents/WebStorm/JS - Deel 5",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets\icons" />
@@ -129,6 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1682430240380</updated>
     </task>
+
+    <task id="LOCAL-00006" summary="bereiding update en individuele receptpagina">
+      <created>1684249079296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249079296</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bereiding update en individuele receptpagina">
+      <created>1684249156207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249156207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+
 
     <task id="LOCAL-00006" summary="klaarmaken voor carousel (mentaal)">
       <created>1683636713995</created>
@@ -218,6 +233,7 @@
 
     <option name="localTasksCounter" value="6" />
 
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +255,8 @@
     <MESSAGE value="Stijn" />
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
+    <MESSAGE value="bereiding update en individuele receptpagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="bereiding update en individuele receptpagina" />
 
     <MESSAGE value="klaarmaken voor carousel (mentaal)" />
     <MESSAGE value="home hero" />
@@ -251,6 +269,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="header nevigatie" />
 
     <option name="LAST_COMMIT_MESSAGE" value="Navbar: done" />
+
 
   </component>
 </project>
