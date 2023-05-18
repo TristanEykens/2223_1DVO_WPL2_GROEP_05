@@ -158,7 +158,6 @@ header i:hover {
 
 #Uitleg {
     background-color: #22252A;
-    background-image: url("assets-pasta/fork_PNG3064.png");
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: 100px 400px;
@@ -478,4 +477,72 @@ header i:hover {
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
     color: #f5d4a8;
+}
+
+
+/* naar boven button */
+
+#terugnaarboven:hover {
+    background-color: #f89a16;
+}
+#terugnaarboven2:hover {
+    background-color: #f89a16;
+
+}
+
+#terugnaarboven {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #F8B960;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem 2rem;
+}
+#terugnaarboven p {
+    color: #22252A;
+    text-decoration: none;
+}
+#terugnaarboven2 {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #F8B960;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+#terugnaarboven2 p {
+    color: #22252A;
+    font-size: 25pt;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* responsiviteit*/
+
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+    header ul li {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    #terugnaarboven {
+        display: none;
+    }
+}
+@media screen and (min-width: 882px) {
+    #terugnaarboven2 {
+        display: none;
+    }
 }
