@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HomePage</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
@@ -10,26 +12,60 @@
     <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap-grid.min.css">
     <script defer src="script-home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     </head>
 <body>
 <article id="hero">
-    <header>
-        <div id="homebut">
-            <a href="./Home.html"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
-        </div>
-        <ul>
-            <li><a href="./Home.html" id="current_page">Home</a></li>
-            <li><a href="#">Producten</a></li>
-            <li><a href="./voordelen.html">Voordelen</a></li>
-            <li><a href="#">Bereiding</a></li>
-            <li><a href="./over_ons.html">Over ons</a></li>
-            <li><a href="./Contactpagina.html">Contact</a></li>
-        </ul>
-        <div>
-            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href="./Login.html"><i class="fa-solid fa-user"></i></a>
-        </div>
-    </header>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="#"><img src="assets-pasta/logo.png" alt="Logo" id="logo"></a></div>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Producten</a>
+                        <input type="checkbox" id="show-prod">
+                        <label for="show-prod">Producten</label>
+                        <ul>
+                            <li><a href="#">Pasta</a></li>
+                            <li><a href="#">Rijst</a></li>
+                            <li><a href="#">Maaltijden</a></li>
+                            <li><a href="#">Sauzen</a></li>
+                            <li><a href="#">Horeca</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">Bereiding</a>
+                        <input type="checkbox" id="show-Bereiding">
+                        <label for="show-Bereiding">Bereiding</label>
+                        <ul>
+                            <li><a href="#">Recepten</a></li>
+                            <li><a href="#">Tips</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-link">About</a>
+                        <input type="checkbox" id="show-about">
+                        <label for="show-about">About</label>
+                        <ul>
+                            <li><a href="#">Over ons</a></li>
+                            <li><a href="#">Bedrijfs ethiek</a></li>
+                            <li><a href="#">Voordelen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="./Login.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </nav>
+    </div>
 
     <div class="Titel_div">
         <table>
