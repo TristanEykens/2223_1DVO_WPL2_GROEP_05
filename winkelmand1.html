@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>Winkelmand1</title>
   <meta name="viewport" content="width=device-width, initial-scal=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap-grid.min.css">
   <link rel="stylesheet" href="winkelmand1.css">
-  <link rel="stylesheet" href="ProductenTest.css">
+
 
 </head>
 <body>
@@ -23,16 +24,19 @@
     <li><a href="./Contactpagina.html">Contact</a></li>
   </ul>
   <div>
-    <a href="./winkelmand1.html"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
+    <a href="./winkelmand.html"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
     <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
   </div>
 </header>
 
 <div class="Titel_div">
-
   <div class="d-flex">
-    <div class="mr-auto p-2">  <h1 class="winkelmand">Winkelmand</h1></div>
-    <div class="p-2"><a class="verder-winkelen" href="#">&lt; Verder winkelen</a></div>
+    <div class="col-md-10 text-right">
+      <h1 class="winkelmand">Winkelmand</h1>
+    </div>
+    <div class="p-2">
+      <a class="verder-winkelen" href="#">&lt; Verder winkelen</a>
+    </div>
   </div>
 
   <div class="container">
@@ -41,51 +45,58 @@
         <div class="col-md-2">
           <img src="assets/ImageIcon.png" alt="Product 1" class="img-thumbnail">
         </div>
-        <div class="col-md-6 cart-item-details">
-          <h3>Product 1</h3>
-          <button class="btn btn-danger remove-btn">Verwijder</button>
-          <div class="quantity-controls">
-            <button class="btn btn-secondary minus-btn">-</button>
-            <span class="quantity">1</span>
-            <button class="btn btn-secondary plus-btn">+</button>
+        <div class="col-md-10 cart-item-details">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h3 class="text-orange">Fusilli</h3>
+              <div class="quantity-controls">
+                <a class="remove-link mr-2">Verwijder</a>
+                <button class="btn btn-orange minus-btn">-</button>
+                <span class="quantity text-white p-2">0</span>
+                <button class="btn btn-orange plus-btn">+</button>
+              </div>
+            </div>
+            <div class="col-md-4 text-right">
+              <div class="text-white h3 product-value">€10.00</div>
+            </div>
           </div>
-          <div class="product-value">€10.00</div>
         </div>
+        <hr class="hr-orange">
       </div>
-      <hr>
       <div class="row cart-item">
         <div class="col-md-2">
           <img src="assets/ImageIcon.png" alt="Product 2" class="img-thumbnail">
         </div>
-        <div class="col-md-6 cart-item-details">
-          <h3>Product 2</h3>
-          <button class="btn btn-danger remove-btn">Verwijder</button>
-          <div class="quantity-controls">
-            <button class="btn btn-secondary minus-btn">-</button>
-            <span class="quantity">1</span>
-            <button class="btn btn-secondary plus-btn">+</button>
+        <div class="col-md-10 cart-item-details">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h3 class="text-orange">Penne</h3>
+              <div class="quantity-controls">
+                <a class="remove-link mr-2">Verwijder</a>
+                <button class="btn btn-orange minus-btn">-</button>
+                <span class="quantity text-white p-2">0</span>
+                <button class="btn btn-orange plus-btn">+</button>
+              </div>
+            </div>
+            <div class="col-md-4 text-right">
+              <div class="text-white h3 product-value">€15.00</div>
+            </div>
           </div>
-          <div class="product-value">€10.00</div>
         </div>
+        <hr class="hr-orange">
       </div>
-      <hr>
       <div class="row">
-        <div class="col-md-8 text-right">
-          <div class="total">Total: €0.00</div>
+        <div class="col-md-12 text-right">
+          <div id="total" class="total text-white h3 font-weight-bold">Totaalbedrag: € 0</div>
         </div>
-        <div class="col-md-4">
-          <!--<button class="btn btn-success btn-block order-btn", "./winkelmand2.html">Ik ga bestellen </button>-->
-          <!--<input type="button" onclick="location.href= winkelmand2.html;" value="Ik ga bestellen" />-->
-          <li><a class="btn btn-success btn-block order-btn" href="./winkelmand2.html">Ik ga bestellen</a></li>
+        <div class="col-md-12">
+          <button class="btn btn-order btn-block order-btn mt-5"> <span class="h5">Ik ga bestellen</span></button>
         </div>
       </div>
     </div>
   </div>
 </div>
-
+<script type="text/javascript" src="winkelmand1.js"></script>
 
 </body>
-<script src="./DataTable.js"></script>
-<script src="./winkelmand1.js"></script>
-
 </html>

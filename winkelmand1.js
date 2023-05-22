@@ -1,131 +1,169 @@
-let label = document.getElementById("label");
-let ShoppingCart = document.getElementById("shopping-cart");
+// Get the cart container element
 
-let basket = JSON.parse(localStorage.getItem("data")) || [];
+var cartContainer = document.getElementById('cart');
 
-let calculation = () => {
-    let cartIcon = document.getElementById("cartAmount");
-    cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
-};
 
-calculation();
 
-let generateCartItems = () => {
-    if (basket.length !== 0) {
-        return (ShoppingCart.innerHTML = basket
-            .map((x) => {
-                let { id, item } = x;
-                let search = shopItemsData.find((y) => y.id === id) || [];
-                return `
-      <div class="cart-item">
-        <img width="100" src=${search.img} alt="" />
-        <div class="details">
 
-          <div class="title-price-x">
-              <h4 class="title-price">
-                <p>${search.name}</p>
-                <p class="cart-item-price">$ ${search.price}</p>
-              </h4>
-              <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
-          </div>
+// Get the quantity control buttons
 
-          <div class="buttons">
-              <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-              <div id=${id} class="quantity">${item}</div>
-              <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
-          </div>
+var quantityButtons = cartContainer.getElementsByClassName('quantity-controls');
 
-          <h3>$ ${item * search.price}</h3>
-        </div>
-      </div>
-      `;
-            })
-            .join(""));
-    } else {
-        ShoppingCart.innerHTML = ``;
-        label.innerHTML = `
-    <h2>Cart is Empty</h2>
-    <a href="ProductenTest.html">
-      <button class="HomeBtn">Back to home</button>
-    </a>
-    `;
+
+
+
+// Get the total element
+
+var totalElement = document.getElementById('total');
+
+
+
+
+// Initialize the total amount
+
+var totalAmount = 0;
+
+
+
+
+// Function to update the total amount
+
+function updateTotal() {
+
+    totalElement.textContent = 'Totaalbedrag: €' + totalAmount.toFixed(2);
+
+}
+
+
+
+
+// Function to handle quantity decrease
+
+function decreaseQuantity() {
+
+    var quantityElement = this.parentNode.getElementsByClassName('quantity')[0];
+
+    var quantity = parseInt(quantityElement.textContent);
+
+
+
+    if (quantity > 0) {
+
+        quantity--;
+
+        quantityElement.textContent = quantity;
+
+
+
+        // Update the total amount
+
+        var productValueElement = this.closest('.cart-item-details').querySelector('.product-value');
+
+        var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+        totalAmount -= productValue;
+
+        updateTotal();
+
     }
-};
 
-generateCartItems();
+}
 
-let increment = (id) => {
-    let selectedItem = id;
-    let search = basket.find((x) => x.id === selectedItem.id);
 
-    if (search === undefined) {
-        basket.push({
-            id: selectedItem.id,
-            item: 1,
-        });
-    } else {
-        search.item += 1;
-    }
 
-    generateCartItems();
-    update(selectedItem.id);
-    localStorage.setItem("data", JSON.stringify(basket));
-};
-let decrement = (id) => {
-    let selectedItem = id;
-    let search = basket.find((x) => x.id === selectedItem.id);
 
-    if (search === undefined) return;
-    else if (search.item === 0) return;
-    else {
-        search.item -= 1;
-    }
-    update(selectedItem.id);
-    basket = basket.filter((x) => x.item !== 0);
-    generateCartItems();
-    localStorage.setItem("data", JSON.stringify(basket));
-};
+// Function to handle quantity increase
 
-let update = (id) => {
-    let search = basket.find((x) => x.id === id);
-    // console.log(search.item);
-    document.getElementById(id).innerHTML = search.item;
-    calculation();
-    TotalAmount();
-};
+function increaseQuantity() {
 
-let removeItem = (id) => {
-    let selectedItem = id;
-    // console.log(selectedItem.id);
-    basket = basket.filter((x) => x.id !== selectedItem.id);
-    generateCartItems();
-    TotalAmount();
-    localStorage.setItem("data", JSON.stringify(basket));
-};
+    var quantityElement = this.parentNode.getElementsByClassName('quantity')[0];
 
-let clearCart = () => {
-    basket = [];
-    generateCartItems();
-    localStorage.setItem("data", JSON.stringify(basket));
-};
+    var quantity = parseInt(quantityElement.textContent);
 
-let TotalAmount = () => {
-    if (basket.length !== 0) {
-        let amount = basket
-            .map((x) => {
-                let { item, id } = x;
-                let search = shopItemsData.find((y) => y.id === id) || [];
 
-                return item * search.price;
-            })
-            .reduce((x, y) => x + y, 0);
-        // console.log(amount);
-        label.innerHTML = `
-    <h2>Total Bill : $ ${amount}</h2>
-    <button class="checkout">Checkout</button>
-    <button onclick="clearCart()" class="removeAll">Clear Cart</button>
-    `;
-    } else return;
-};
 
-TotalAmount();
+    quantity++;
+
+    quantityElement.textContent = quantity;
+
+
+
+    // Update the total amount
+
+    var productValueElement = this.closest('.cart-item-details').querySelector('.product-value');
+
+    var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+    totalAmount += productValue;
+
+    updateTotal();
+
+}
+
+
+
+
+// Function to handle item removal
+
+function removeItem() {
+
+    var cartItem = this.closest('.cart-item');
+
+
+
+    // Get the quantity and product value of the item being removed
+
+    var quantityElement = cartItem.getElementsByClassName('quantity')[0];
+
+    var quantity = parseInt(quantityElement.textContent);
+
+
+
+    var productValueElement = cartItem.querySelector('.product-value');
+
+    var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+
+
+    // Calculate the value of the item being removed
+
+    var itemValue = quantity * productValue;
+
+
+
+    // Update the total amount
+
+    totalAmount -= itemValue;
+
+    updateTotal();
+
+
+
+    // Remove the cart item
+
+    cartItem.remove();
+
+}
+
+
+
+
+// Attach event listeners to quantity control buttons
+
+for (var i = 0; i < quantityButtons.length; i++) {
+
+    var minusButton = quantityButtons[i].getElementsByClassName('minus-btn')[0];
+
+    var plusButton = quantityButtons[i].getElementsByClassName('plus-btn')[0];
+
+    var removeLink = quantityButtons[i].getElementsByClassName('remove-link')[0];
+
+
+
+    minusButton.addEventListener('click', decreaseQuantity);
+
+    plusButton.addEventListener('click', increaseQuantity);
+
+    removeLink.addEventListener('click', removeItem);
+
+}
