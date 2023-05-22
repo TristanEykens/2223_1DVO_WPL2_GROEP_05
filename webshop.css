@@ -115,7 +115,7 @@ input{
     color: white;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767px) {
     .card-img-top{
         height: 14rem;
         width: auto;
