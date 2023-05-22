@@ -1,13 +1,24 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Over ons- en voordelen pagina is af">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/over_ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voordelen.css" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.css" afterDir="false" />
+
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="bereiding update en individuele receptpagina">
+
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="header nevigatie">
+      <change afterPath="$PROJECT_DIR$/script-home.js" afterDir="false" />
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="fre &lt;p&gt; test">
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+ 
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -28,29 +40,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2OYP6IJMdvUwyHRwbYRTweGrVg2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/stijn/OneDrive/Bureaublad/Digitale_Vormgeving/Jaar2/Semester 1/Web Essentials/webessentials&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/holtz/Documents/WebStorm/JS - Deel 5",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets-pasta" />
@@ -74,9 +89,20 @@
       <workItem from="1682425376431" duration="8018000" />
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
+
       <workItem from="1684180814798" duration="125000" />
       <workItem from="1684219070763" duration="9215000" />
       <workItem from="1684236189171" duration="1110000" />
+
+      <workItem from="1684151133876" duration="3967000" />
+      <workItem from="1684219570191" duration="5136000" />
+      <workItem from="1684241324332" duration="8475000" />
+
+      <workItem from="1683615134184" duration="11422000" />
+      <workItem from="1684151751108" duration="6060000" />
+      <workItem from="1684223406636" duration="3247000" />
+
+
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -113,14 +139,122 @@
       <option name="project" value="LOCAL" />
       <updated>1682430240380</updated>
     </task>
+
     <task id="LOCAL-00006" summary="Over ons- en voordelen pagina is af">
       <created>1684229188613</created>
+
+
+    <task id="LOCAL-00006" summary="bereiding update en individuele receptpagina">
+      <created>1684249079296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249079296</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bereiding update en individuele receptpagina">
+      <created>1684249156207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249156207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+
+
+    <task id="LOCAL-00006" summary="klaarmaken voor carousel (mentaal)">
+      <created>1683636713995</created>
+
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1684229188613</updated>
     </task>
+
     <option name="localTasksCounter" value="7" />
+
+    <task id="LOCAL-00007" summary="home hero">
+      <created>1683641438123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683641438123</updated>
+    </task>
+    <task id="LOCAL-00008" summary="header fixes">
+      <created>1683641872558</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683641872558</updated>
+    </task>
+    <task id="LOCAL-00009" summary="header fixes">
+      <created>1683642608040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683642608040</updated>
+    </task>
+    <task id="LOCAL-00010" summary="header fixes">
+      <created>1684151220073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684151220073</updated>
+    </task>
+    <task id="LOCAL-00011" summary="inspiratie aanpassen">
+      <created>1684152494717</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684152494717</updated>
+    </task>
+    <task id="LOCAL-00012" summary="inspiratie aanpassen">
+      <created>1684164385287</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684164385287</updated>
+    </task>
+    <task id="LOCAL-00013" summary="footer wijziging">
+      <created>1684220806829</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684220806829</updated>
+    </task>
+    <task id="LOCAL-00014" summary="button hover">
+      <created>1684221192079</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684221192079</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ervaringen">
+      <created>1684228818410</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684228818410</updated>
+    </task>
+    <task id="LOCAL-00016" summary="header nevigatie">
+      <created>1684231171461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684231171461</updated>
+    </task>
+    <task id="LOCAL-00017" summary="header nevigatie">
+      <created>1684237898098</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684237898098</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+
+    <option name="localTasksCounter" value="6" />
+
+
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +276,25 @@
     <MESSAGE value="Stijn" />
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
+
     <MESSAGE value="Over ons- en voordelen pagina is af" />
     <option name="LAST_COMMIT_MESSAGE" value="Over ons- en voordelen pagina is af" />
+    <MESSAGE value="bereiding update en individuele receptpagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="bereiding update en individuele receptpagina" />
+
+    <MESSAGE value="klaarmaken voor carousel (mentaal)" />
+    <MESSAGE value="home hero" />
+    <MESSAGE value="header fixes" />
+    <MESSAGE value="inspiratie aanpassen" />
+    <MESSAGE value="footer wijziging" />
+    <MESSAGE value="button hover" />
+    <MESSAGE value="ervaringen" />
+    <MESSAGE value="header nevigatie" />
+    <option name="LAST_COMMIT_MESSAGE" value="header nevigatie" />
+
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar: done" />
+
+
+
   </component>
 </project>

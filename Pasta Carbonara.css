@@ -25,6 +25,7 @@ header {
 
 header ul {
     display: flex;
+
     list-style-type: none;
 }
 
@@ -33,15 +34,6 @@ header ul li a {
     color: #f8b960;
     text-decoration: none;
     display: inline-block;
-}
-
-header ul li a:hover {
-    color: white;
-}
-
-#current_page {
-    font-weight: bold;
-    color: white;
 }
 
 #logo {
@@ -57,59 +49,27 @@ body {
 }
 
 
-/*main*/
-main {
-    background-color: #272424;
+/*Main*/
+.TitelRecept {
+    color: #F8B960;
+    margin: 100px auto auto 100px;
 }
 
-h1, h5 {
-    text-align: center;
-    color: white;
+h4 {
+    color: #F8B960;
+    margin: 50px auto auto 100px;
 }
 
-h1 {
-    padding-top: 90px;
-}
+/*#image {*/
+/*    background-image: url("assets/Pasta's/carbonara.jpg");*/
+/*    border-radius: 45px;*/
+/*    background-size: 100% auto;*/
+/*    aspect-ratio: 1 / 0.5;*/
+/*    background-position: center;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-.contactgroep {
-    padding: 140px 0;
-}
-
-.col-3 {
-    border: solid #000000 1px;
-    border-radius: 36px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    aspect-ratio : 1 / 1;
-    background-color: #FDECD3;
-}
-
-.col-3 h2, .col-3 p {
-    margin: 0;
-    color: #5A3F19;
-}
-
-.col-3 h2 {
-    padding-bottom: 25px;
-    border-bottom: solid 3px #5A3F19;
-}
-
-.contact_logo {
-    height: 55px;
-    filter: #5A3F19;
-}
-
-.social_logo {
-    height: 55px;
-    margin: 0 15px;
-    color: #5A3F19;
-}
-
-
-/* Deel 4: footer */
+/* footer */
 .container-fluid {
     box-shadow: 0 0 20px black;
     display: flex;
@@ -117,6 +77,7 @@ h1 {
     background: #22252A;
     padding: 30px;
     color: white;
+    margin-top: 150px;
 }
 
 .container-fluid p {
@@ -132,9 +93,11 @@ h1 {
 .Extra-nav {
     width: 50%;
 }
+
 .Ons-aanbod {
     width: 50%;
 }
+
 .Contact {
     width: 50%;
 }
