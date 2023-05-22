@@ -1,0 +1,58 @@
+let shopItemsData = [
+    {
+        id: "jfhgbvnscs",
+        name: "Pasta 1",
+        price: 5,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "ioytrhndcv",
+        name: "Pasta 2",
+        price: 10,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "wuefbncxbsn",
+        name: "Pasta 3",
+        price: 25,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "thyfhcbcf",
+        name: "Pasta 4",
+        price: 30,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "thyfhcbdv",
+        name: "Pasta 5",
+        price: 33,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "thyfhcbdg",
+        name: "Pasta 6",
+        price: 33,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "thyfhcbdl",
+        name: "Pasta 7",
+        price: 33,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+    {
+        id: "thyfhcbdm",
+        name: "Pasta 8",
+        price: 33,
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+        img: "assets-pasta/witloof.png",
+    },
+];

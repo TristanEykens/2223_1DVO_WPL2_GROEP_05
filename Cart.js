@@ -122,10 +122,15 @@ let TotalAmount = () => {
         // console.log(amount);
         label.innerHTML = `
     <h2>Total Bill : $ ${amount}</h2>
-    <button class="checkout">Checkout</button>
+    <button id="OrderBtn" class="checkout">Checkout</button>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `;
     } else return;
 };
 
 TotalAmount();
+
+//clicking the order button will bring you to winkelmand2
+document.getElementById('OrderBtn').addEventListener('click', function(){
+    window.location.href = './winkelmand2.html'
+})
