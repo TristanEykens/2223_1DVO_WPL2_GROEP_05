@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Update over ons en voordelen pagina">
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-food-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-people5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient-people6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets-pasta/ambient5.png" afterDir="false" />
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Over ons- en voordelen pagina is af">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Beeldspraak1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Beeldspraak1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/over_ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/over_ons.html" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voordelen.css" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voordelen.html" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +75,8 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
       <workItem from="1684180814798" duration="125000" />
-      <workItem from="1684219070763" duration="8988000" />
+      <workItem from="1684219070763" duration="9215000" />
+      <workItem from="1684236189171" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
       <created>1681734643447</created>
@@ -124,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682430240380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Over ons- en voordelen pagina is af">
+      <created>1684229188613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684229188613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +142,7 @@
     <MESSAGE value="Stijn" />
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar: done" />
+    <MESSAGE value="Over ons- en voordelen pagina is af" />
+    <option name="LAST_COMMIT_MESSAGE" value="Over ons- en voordelen pagina is af" />
   </component>
 </project>

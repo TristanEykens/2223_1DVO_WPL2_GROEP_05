@@ -50,7 +50,9 @@ header ul li a:hover {
 
 /* Main */
 main {
-    background-color: #272425;
+    background-image: url("assets-pasta/background.png");
+    background-position: center;
+    /* background-color: #272425; */
     width: 100%;
     padding: 4rem;
 }
