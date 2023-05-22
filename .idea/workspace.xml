@@ -5,6 +5,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="Over ons- en voordelen pagina is af">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/over_ons.css" beforeDir="false" afterPath="$PROJECT_DIR$/over_ons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voordelen.css" beforeDir="false" afterPath="$PROJECT_DIR$/voordelen.css" afterDir="false" />
+
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="bereiding update en individuele receptpagina">
 
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="header nevigatie">
@@ -12,6 +18,7 @@
     <list default="true" id="1d94f9fa-cef5-4a34-8728-fbc3c9e0c7ce" name="Changes" comment="fre &lt;p&gt; test">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+ 
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets-pasta" />
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets\icons" />
       <recent name="C:\Users\stijn\OneDrive\Bureaublad\Digitale_Vormgeving\Jaar2\Semester 2\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_05\assets" />
       <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\teamleden" />
       <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05" />
-      <recent name="C:\Users\holtz\Documents\Github\2223_1DVO_WPL2_GROEP_05\Tristan" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,6 +90,10 @@
       <workItem from="1682983702571" duration="899000" />
       <workItem from="1683008255857" duration="1267000" />
 
+      <workItem from="1684180814798" duration="125000" />
+      <workItem from="1684219070763" duration="9215000" />
+      <workItem from="1684236189171" duration="1110000" />
+
       <workItem from="1684151133876" duration="3967000" />
       <workItem from="1684219570191" duration="5136000" />
       <workItem from="1684241324332" duration="8475000" />
@@ -90,6 +101,7 @@
       <workItem from="1683615134184" duration="11422000" />
       <workItem from="1684151751108" duration="6060000" />
       <workItem from="1684223406636" duration="3247000" />
+
 
     </task>
     <task id="LOCAL-00001" summary="fre &lt;p&gt; test">
@@ -128,6 +140,10 @@
       <updated>1682430240380</updated>
     </task>
 
+    <task id="LOCAL-00006" summary="Over ons- en voordelen pagina is af">
+      <created>1684229188613</created>
+
+
     <task id="LOCAL-00006" summary="bereiding update en individuele receptpagina">
       <created>1684249079296</created>
       <option name="number" value="00006" />
@@ -147,11 +163,15 @@
 
     <task id="LOCAL-00006" summary="klaarmaken voor carousel (mentaal)">
       <created>1683636713995</created>
+
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1683636713995</updated>
+      <updated>1684229188613</updated>
     </task>
+
+    <option name="localTasksCounter" value="7" />
+
     <task id="LOCAL-00007" summary="home hero">
       <created>1683641438123</created>
       <option name="number" value="00007" />
@@ -234,6 +254,7 @@
     <option name="localTasksCounter" value="6" />
 
 
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +276,9 @@
     <MESSAGE value="Stijn" />
     <MESSAGE value="Navbar" />
     <MESSAGE value="Navbar: done" />
+
+    <MESSAGE value="Over ons- en voordelen pagina is af" />
+    <option name="LAST_COMMIT_MESSAGE" value="Over ons- en voordelen pagina is af" />
     <MESSAGE value="bereiding update en individuele receptpagina" />
     <option name="LAST_COMMIT_MESSAGE" value="bereiding update en individuele receptpagina" />
 
@@ -269,6 +293,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="header nevigatie" />
 
     <option name="LAST_COMMIT_MESSAGE" value="Navbar: done" />
+
 
 
   </component>

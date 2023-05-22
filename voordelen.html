@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Voordelen</title>
-    <link rel="stylesheet" href="voordelen.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <link rel="stylesheet" href="voordelen.css">
 
 </head>
 <body>
@@ -26,131 +28,173 @@
     </div>
 </header>
 <main>
-    <h1>Voordelen</h1>
-    <section id="top_section">
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h3>Eenvoudig & Snel!</h3>
-            <p>Onze producten zijn snel en gemakkelijk klaar te maken, zonder kwaliteitsverlies!</p>
-        </article>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h3>Kwaliteitsvol zonder bewaarmiddelen!</h3>
-            <p>Wij zijn altijd op zoek naar nieuwe manieren om onze pasta lekker en vers te houden, zonder
-                bewaarmiddelen!</p>
-        </article>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h3>Makkelijk portioneerbaar!</h3>
-            <p>Dankzij onze producten heeft u geen last meer van het afmeten van uw porties!</p>
-        </article>
-    </section>
+
+    <div class="container-fluid" id="top_section">
+        <h1>Voordelen</h1>
+        <div class="row justify-content-evenly">
+            <div class="col-2">
+                <img src="assets-pasta/ambient-food-14.png" alt="Pasta">
+            </div>
+            <div class="col-2">
+                <img src="assets-pasta/ambient-food-15.png" alt="Pasta">
+            </div>
+            <div class="col-2">
+                <img src="assets-pasta/ambient-food-16.png" alt="Pasta">
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-2">
+                <h3>Eenvoudig & Snel!</h3>
+                <p>Onze producten zijn snel en gemakkelijk klaar te maken, zonder kwaliteitsverlies!</p>
+            </div>
+            <div class="col-2">
+                <h3>Kwaliteitsvol zonder bewaarmiddelen!</h3>
+                <p>Wij zijn altijd op zoek naar nieuwe manieren om onze pasta lekker en vers te houden, zonder
+                    bewaarmiddelen!</p>
+            </div>
+            <div class="col-2">
+                <h3>Makkelijk portioneerbaar!</h3>
+                <p>Dankzij onze producten heeft u geen last meer van het afmeten van uw porties!</p>
+            </div>
+        </div>
+    </div>
+
     <section id="mid_section">
-        <h1>Ervaringen</h1>
-        <article>
-            <div>
-                <img src="assets/ImageIcon.png" alt="Pasta">
-            </div>
-            <div>
-                <h2>Tim</h2>
-                <p>Klant sinds 2023</p>
-            </div>
-            <div>
-                <div class="star-rating">
-                    <input type="radio" name="stars" id="star-a1" value="5" disabled checked/>
-                    <label for="star-a1"></label>
-
-                    <input type="radio" name="stars" id="star-b1" value="4" disabled/>
-                    <label for="star-b1"></label>
-
-                    <input type="radio" name="stars" id="star-c1" value="3" disabled/>
-                    <label for="star-c1"></label>
-
-                    <input type="radio" name="stars" id="star-d1" value="2" disabled/>
-                    <label for="star-d1"></label>
-
-                    <input type="radio" name="stars" id="star-e1" value="1" disabled/>
-                    <label for="star-e1"></label>
+        <div class="container-fluid" id="upper_mid_section">
+            <h1>Ervaringen</h1>
+            <div class="row justify-content-around">
+                <div class="col-2">
+                    <img src="assets-pasta/ambient-people5.png" alt="Pasta">
                 </div>
-                <p>Ik heb onlangs de vriesverse pasta van deze website besreld en ik ben zeer onder de indruk! De pasta
-                    was gemakkelijk te bereiden en smaakte heerlijk vers. Ik was een beetje sceptisch over het idee van
-                    vriesverse pasta maar deze pasta overtrof al mijn verwachtingen.</p>
-            </div>
-        </article>
-        <article>
-            <div><img src="assets/ImageIcon.png" alt="Pasta"></div>
-            <div>
-                <h2>Tom</h2>
-                <p>Klant sinds 2023</p>
-            </div>
-            <div>
-                <div class="star-rating">
-                    <input type="radio" name="stars" id="star-a2" value="5" disabled/>
-                    <label for="star-a2"></label>
-
-                    <input type="radio" name="stars" id="star-b2" value="4" disabled checked/>
-                    <label for="star-b2"></label>
-
-                    <input type="radio" name="stars" id="star-c2" value="3" disabled/>
-                    <label for="star-c2"></label>
-
-                    <input type="radio" name="stars" id="star-d2" value="2" disabled/>
-                    <label for="star-d2"></label>
-
-                    <input type="radio" name="stars" id="star-e2" value="1" disabled/>
-                    <label for="star-e2"></label>
+                <div class="col-4">
+                    <h2>Tim</h2>
+                    <p class="client_since">Klant sinds 2023</p>
                 </div>
-                <p>Ik heb onlangs de vriesverse pasta van deze website besreld en ik ben zeer onder de indruk! De pasta
-                    was gemakkelijk te bereiden en smaakte heerlijk vers. Ik was een beetje sceptisch over het idee van
-                    vriesverse pasta maar deze pasta overtrof al mijn verwachtingen.</p>
+                <div class="col-6">
+                    <div class="upper_row">
+                        <div class="star-rating">
+                            <input type="radio" name="stars1" id="star-a1" value="5" disabled checked/>
+                            <label for="star-a1"></label>
+
+                            <input type="radio" name="stars1" id="star-b1" value="4" disabled/>
+                            <label for="star-b1"></label>
+
+                            <input type="radio" name="stars1" id="star-c1" value="3" disabled/>
+                            <label for="star-c1"></label>
+
+                            <input type="radio" name="stars1" id="star-d1" value="2" disabled/>
+                            <label for="star-d1"></label>
+
+                            <input type="radio" name="stars1" id="star-e1" value="1" disabled/>
+                            <label for="star-e1"></label>
+                        </div>
+                        <p class="review_date">2023-03-20</p>
+                    </div>
+                    <p>Ik heb onlangs de vriesverse pasta van deze website besreld en ik ben zeer onder de indruk! <br>De
+                        pasta
+                        was gemakkelijk te bereiden en smaakte heerlijk vers. Ik was een beetje sceptisch over het idee
+                        van
+                        vriesverse pasta maar deze pasta overtrof al mijn verwachtingen.</p>
+                </div>
             </div>
-        </article>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-around" id="bottom_mid_section">
+                <div class="col-2">
+                    <img src="assets-pasta/ambient-people6.png" alt="Pasta">
+                </div>
+                <div class="col-4">
+                    <h2>Tom</h2>
+                    <p class="client_since">Klant sinds 2023</p>
+                </div>
+                <div class="col-6">
+                    <div class="upper_row">
+                        <div class="star-rating">
+                            <input type="radio" name="stars2" id="star-a2" value="5" disabled/>
+                            <label for="star-a2"></label>
+
+                            <input type="radio" name="stars2" id="star-b2" value="4" disabled checked/>
+                            <label for="star-b2"></label>
+
+                            <input type="radio" name="stars2" id="star-c2" value="3" disabled/>
+                            <label for="star-c2"></label>
+
+                            <input type="radio" name="stars2" id="star-d2" value="2" disabled/>
+                            <label for="star-d2"></label>
+
+                            <input type="radio" name="stars2" id="star-e2" value="1" disabled/>
+                            <label for="star-e2"></label>
+                        </div>
+                        <p class="review_date">2023-04-26</p>
+                    </div>
+                    <p>Ik heb onlangs de vriesverse pasta van deze website besreld en ik ben zeer onder de indruk! <br>De
+                        pasta
+                        was gemakkelijk te bereiden en smaakte heerlijk vers. Ik was een beetje sceptisch over het idee
+                        van
+                        vriesverse pasta maar deze pasta overtrof al mijn verwachtingen.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="bottom_section">
-        <h1>Vergelijk met verse pasta</h1>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h2>Textuur</h2>
-            <p>Over het algemeen hebben
-                vriesverse pasta's een iets zachtere
-                textuur dan gewone pasta
-                omdat ze zijn ingevroren en ontdooid.
-                Dit kan sommige mensen bevallen,
-                terwijl anderen de voorkeur geven
-                aan een stevigere textuur.</p>
-        </article>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h2>Smaak</h2>
-            <p>Vriesverse pasta kan dezelfde smaak hebben
-                als gewone pasta als deze goed is bereid
-                en op de juiste manier is bewaard.
-                Sommige mensen geven echter de voorkeur
-                aan de smaak van verse,
-                zelfgemaakte of gedroogde pasta.</p>
-        </article>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h2>Bereidingstijd</h2>
-            <p>Vriesverse pasta heeft over het algemeen
-                een kortere kooktijd dan gedroogde pasta,
-                omdat deze al voorgekookt is.
-                Dit kan handig zijn voor mensen die
-                weinig tijd hebben om te koken.</p>
-        </article>
-        <article>
-            <img src="assets/ImageIcon.png" alt="Pasta">
-            <h2>Houdbaarheid</h2>
-            <p>Vriesverse pasta heeft een
-                langere houdbaarheid dan verse pasta,
-                maar een kortere houdbaarheid
-                dan gedroogde pasta.
-                Het is belangrijk om de instructies
-                op de verpakking te volgen
-                om ervoor te zorgen dat de pasta
-                goed bewaard blijft en niet bederft.</p>
-        </article>
-    </section>
+
+
+        <div class="container-fluid" id="bottom_section">
+            <h1>Vergelijk met verse pasta</h1>
+            <div class="row justify-content-evenly">
+                <div class="col-3">
+                    <img src="assets-pasta/ambient5.png" alt="Pasta">
+                </div>
+                <div class="col-3">
+                    <img src="assets-pasta/ambient4.png" alt="Pasta">
+                </div>
+                <div class="col-3">
+                    <img src="assets-pasta/ambient2.png" alt="Pasta">
+                </div>
+                <div class="col-3">
+                    <img src="assets-pasta/ambient3.png" alt="Pasta">
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-3">
+                    <h3>Textuur</h3>
+                    <p>Over het algemeen hebben
+                        vriesverse pasta's een iets zachtere
+                        textuur dan gewone pasta
+                        omdat ze zijn ingevroren en ontdooid.
+                        Dit kan sommige mensen bevallen,
+                        terwijl anderen de voorkeur geven
+                        aan een stevigere textuur.</p>
+                </div>
+                <div class="col-3">
+                    <h3>Smaak</h3>
+                    <p>Vriesverse pasta kan dezelfde smaak hebben
+                        als gewone pasta als deze goed is bereid
+                        en op de juiste manier is bewaard.
+                        Sommige mensen geven echter de voorkeur
+                        aan de smaak van verse,
+                        zelfgemaakte of gedroogde pasta.</p>
+                </div>
+                <div class="col-3">
+                    <h3>Bereidingstijd</h3>
+                    <p>Vriesverse pasta heeft over het algemeen
+                        een kortere kooktijd dan gedroogde pasta,
+                        omdat deze al voorgekookt is.
+                        Dit kan handig zijn voor mensen die
+                        weinig tijd hebben om te koken.</p>
+                </div>
+                <div class="col-3">
+                    <h3>Houdbaarheid</h3>
+                    <p>Vriesverse pasta heeft een
+                        langere houdbaarheid dan verse pasta,
+                        maar een kortere houdbaarheid
+                        dan gedroogde pasta.
+                        Het is belangrijk om de instructies
+                        op de verpakking te volgen
+                        om ervoor te zorgen dat de pasta
+                        goed bewaard blijft en niet bederft.</p>
+                </div>
+            </div>
+        </div>
 </main>
 </body>
 </html>
