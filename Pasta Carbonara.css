@@ -57,17 +57,47 @@ body {
 
 h4 {
     color: #F8B960;
-    margin: 50px auto auto 100px;
+    margin: 25px auto auto 100px;
 }
 
-/*#image {*/
-/*    background-image: url("assets/Pasta's/carbonara.jpg");*/
-/*    border-radius: 45px;*/
-/*    background-size: 100% auto;*/
-/*    aspect-ratio: 1 / 0.5;*/
-/*    background-position: center;*/
-/*    margin: 0 auto;*/
-/*}*/
+h6 {
+    color: #F8B960;
+    margin: auto auto 10px 100px;
+}
+
+.linksFoto {
+    display: inline-block;
+}
+
+#ingrediënten {
+    margin-bottom: 0;
+    padding-left: 18px;
+}
+
+#bereiding {
+    padding-left: 18px;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    color: #FFFFFF;
+    margin: 5px 100px auto 100px;
+    padding-left: 22px;
+}
+ol li {
+    padding: 3px 0;
+}
+
+#image {
+    background-image: url("assets/Pasta's/carbonara.jpg");
+    border-radius: 45px;
+    background-size: 100% auto;
+    aspect-ratio: 1 / 0.5;
+    background-position: center;
+    margin: 180px auto auto 50px;
+    display: inline-block;
+    vertical-align: top;
+}
 
 /* footer */
 .container-fluid {
