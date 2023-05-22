@@ -1,41 +1,169 @@
-// Initialize variables
-let total = 0;
+// Get the cart container element
 
-// Add event listeners for plus and minus buttons
-document.querySelectorAll('.minus-btn').forEach(function(button) {
-    button.addEventListener('click', function() {
-        let quantity = parseInt(button.nextElementSibling.innerText);
-        if (quantity > 1) {
-            quantity--;
-            button.nextElementSibling.innerText = quantity;
-            updateTotal();
-        }
-    });
-});
+var cartContainer = document.getElementById('cart');
 
-document.querySelectorAll('.plus-btn').forEach(function(button) {
-    button.addEventListener('click', function() {
-        let quantity = parseInt(button.previousElementSibling.innerText);
-        quantity++;
-        button.previousElementSibling.innerText = quantity;
-        updateTotal();
-    });
-});
 
-// Add event listeners for remove buttons
-document.querySelectorAll('.remove-btn').forEach(function(button) {
-    button.addEventListener('click', function() {
-        button.closest('.cart-item').remove();
-        updateTotal();
-    });
-});
 
-// Update the total price of the cart
+
+// Get the quantity control buttons
+
+var quantityButtons = cartContainer.getElementsByClassName('quantity-controls');
+
+
+
+
+// Get the total element
+
+var totalElement = document.getElementById('total');
+
+
+
+
+// Initialize the total amount
+
+var totalAmount = 0;
+
+
+
+
+// Function to update the total amount
+
 function updateTotal() {
-    total = 0;
-    document.querySelectorAll('.cart-item').forEach(function(item) {
-        let quantity = parseInt(item.querySelector('.quantity').innerText);
-        let price = parseFloat(item.querySelector('.product-value').innerText.substring(1));
-        total += quantity * price;
-    });
+
+    totalElement.textContent = 'Totaalbedrag: €' + totalAmount.toFixed(2);
+
+}
+
+
+
+
+// Function to handle quantity decrease
+
+function decreaseQuantity() {
+
+    var quantityElement = this.parentNode.getElementsByClassName('quantity')[0];
+
+    var quantity = parseInt(quantityElement.textContent);
+
+
+
+    if (quantity > 0) {
+
+        quantity--;
+
+        quantityElement.textContent = quantity;
+
+
+
+        // Update the total amount
+
+        var productValueElement = this.closest('.cart-item-details').querySelector('.product-value');
+
+        var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+        totalAmount -= productValue;
+
+        updateTotal();
+
+    }
+
+}
+
+
+
+
+// Function to handle quantity increase
+
+function increaseQuantity() {
+
+    var quantityElement = this.parentNode.getElementsByClassName('quantity')[0];
+
+    var quantity = parseInt(quantityElement.textContent);
+
+
+
+    quantity++;
+
+    quantityElement.textContent = quantity;
+
+
+
+    // Update the total amount
+
+    var productValueElement = this.closest('.cart-item-details').querySelector('.product-value');
+
+    var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+    totalAmount += productValue;
+
+    updateTotal();
+
+}
+
+
+
+
+// Function to handle item removal
+
+function removeItem() {
+
+    var cartItem = this.closest('.cart-item');
+
+
+
+    // Get the quantity and product value of the item being removed
+
+    var quantityElement = cartItem.getElementsByClassName('quantity')[0];
+
+    var quantity = parseInt(quantityElement.textContent);
+
+
+
+    var productValueElement = cartItem.querySelector('.product-value');
+
+    var productValue = parseFloat(productValueElement.textContent.replace('€', ''));
+
+
+
+    // Calculate the value of the item being removed
+
+    var itemValue = quantity * productValue;
+
+
+
+    // Update the total amount
+
+    totalAmount -= itemValue;
+
+    updateTotal();
+
+
+
+    // Remove the cart item
+
+    cartItem.remove();
+
+}
+
+
+
+
+// Attach event listeners to quantity control buttons
+
+for (var i = 0; i < quantityButtons.length; i++) {
+
+    var minusButton = quantityButtons[i].getElementsByClassName('minus-btn')[0];
+
+    var plusButton = quantityButtons[i].getElementsByClassName('plus-btn')[0];
+
+    var removeLink = quantityButtons[i].getElementsByClassName('remove-link')[0];
+
+
+
+    minusButton.addEventListener('click', decreaseQuantity);
+
+    plusButton.addEventListener('click', increaseQuantity);
+
+    removeLink.addEventListener('click', removeItem);
+
 }
