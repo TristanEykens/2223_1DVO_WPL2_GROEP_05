@@ -29,7 +29,7 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
-    position: fixed;
+    position: relative;
     width: 100%;
     background-color: rgba(31, 31, 31, 0.94);
     z-index: 3;
