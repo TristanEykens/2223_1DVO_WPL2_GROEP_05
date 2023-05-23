@@ -55,18 +55,15 @@ main {
     background-position: bottom;
     background-size: auto;
     /* background-color: #272425; */
-    width: 100%;
-    padding: 4rem;
-    padding-top: 2rem;
 }
 
 main h1 {
     color: #f8b960;
     font-size: 46px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-main #h3 {
+main .h3 {
     font-weight: bold;
     margin-bottom: 2rem;
 }
@@ -76,9 +73,92 @@ main p {
 
 }
 
-main img {
+main #image1 img {
     border-radius: 1rem;
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
+    padding-left: 3rem;
+}
+
+main #image2 img {
+    border-radius: 1rem;
+    width: 85%;
+
+    margin-top: 6rem;
+}
+
+/* Footer */
+footer {
+    background: #424040;
+    box-shadow: 0 0 20px black;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+footer a:hover {
+    color: #f8b960;
+    font-weight: 400;
+}
+
+footer img {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer #footer_phone img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+#footer_phone, #footer_web {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #footer_phone {
+        display: none;
+    }
+    #footer_web {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_phone {
+        display: block;
+
+    }
+    #footer_web {
+        display: none;
+    }
+}
+
+/* Responsive webdesign */
+/* main */
+@media screen and (max-width: 1200px){
+    main #image1 img {
+        margin-bottom: 3rem;
+        padding-left: 0;
+    }
+    main #image2 img {
+        display: none;
+    }
 }
 
