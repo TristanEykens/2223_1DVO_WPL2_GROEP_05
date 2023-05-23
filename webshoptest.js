@@ -16,11 +16,11 @@ function  decrementValue(){
 
 function addToCart (){
     var input = document.getElementById('number');
-    var winkelmandhoeveelheid = parseInt(document.getElementById('winkelmand-hoeveelheid').textContent);
-    var waarde = parseInt((input.value, 10));
+    var winkelmandhoeveelheid = parseInt(document.getElementById('cartAmount').textContent);
+    var waarde = parseInt((input.value));
     winkelmandhoeveelheid = isNaN(winkelmandhoeveelheid) ? 0 : winkelmandhoeveelheid;
     waarde = isNaN(waarde) ? 0 : waarde;
     winkelmandhoeveelheid += waarde;
-    document.getElementById('winkelmand-hoeveelheid').textContent = winkelmandhoeveelheid;
+    document.getElementById('cartAmount').textContent = winkelmandhoeveelheid;
 
 }
