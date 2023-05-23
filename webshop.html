@@ -2,30 +2,79 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
     <title>Webshop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="webshop.css">
     <script defer src="webshoptest.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <script defer src="script-home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <script defer src="DataTable.js"></script>
+    <script defer src="ProductenTest.js"></script>
+
 </head>
 <body>
-<!--    <header>
-        <div>
-            <a href="./Home.html"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
+<!-- Vanaf hier is header -->
+<div class="wrapper">
+    <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="./Home.html"><img src="assets-pasta/logo.png" alt="Logo" id="logo"></a></div>
+            <ul class="links">
+                <li><a href="Home.html">Home</a></li>
+                <li>
+                    <a href="webshop.html" class="desktop-link">Producten</a>
+                    <input type="checkbox" id="show-prod">
+                    <label for="show-prod">Producten</label>
+                    <ul>
+                        <li><a href="webshop.html#pastas">Pasta</a></li>
+                        <li><a href="webshop.html#rijst">Rijst</a></li>
+                        <li><a href="webshop.html">Maaltijden</a></li>
+                        <li><a href="webshop.html#sauzen">Sauzen</a></li>
+                        <li><a href="webshop.html">Horeca</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="bereiding.html" class="desktop-link">Bereiding</a>
+                    <input type="checkbox" id="show-Bereiding">
+                    <label for="show-Bereiding">Bereiding</label>
+                    <ul>
+                        <li><a href="bereiding.html#receptenTitel">Recepten</a></li>
+                        <li><a href="bereiding.html#tips&tricks">Tips</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="over_ons.html" class="desktop-link">Over ons</a>
+                    <input type="checkbox" id="show-about">
+                    <label for="show-about">Over ons</label>
+                    <ul>
+                        <li><a href="over_ons.html">Geschiedenis</a></li>
+                        <li><a href="over_ons.html#ethiek">Bedrijfsethiek</a></li>
+                        <li><a href="voordelen.html">Voordelen</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="./Home.html">Home</a></li>
-            <li><a href="./webshop.html" id="current_page">Producten</a></li>
-            <li><a href="./voordelen.html">Voordelen</a></li>
-            <li><a href="./bereiding.html">Bereiding</a></li>
-            <li><a href="./over_ons.html">Over ons</a></li>
-            <li><a href="./Contactpagina.html">Contact</a></li>
-        </ul>
         <div>
-            <a href="#"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
-            <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping">
+                <div id="cartAmount" class="cartAmount">0</div>
+            </i></a>
+            <a href="Login.html"><i class="fa-solid fa-user"></i></a>
         </div>
-    </header>-->
+    </nav>
+</div>
+<!-- Tot hier is header -->
+
   <div class="container" style="margin-top: 3rem">
     <h1 class="text-center">Onze Producten:</h1>
     <div class="row justify-content-center">
