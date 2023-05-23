@@ -57,7 +57,7 @@ h1 {
 .social_logo {
     height: 55px;
     margin: 0 15px;
-    filter: invert(22%) sepia(21%) saturate(1713%) hue-rotate(356deg) brightness(91%) contrast(84%);
+    filter: brightness(0) saturate(100%) invert(24%) sepia(15%) saturate(1897%) hue-rotate(355deg) brightness(93%) contrast(91%);
 }
 
 
@@ -202,7 +202,7 @@ a.active {
     display: block;
     width: 100%;
     line-height: 30px;
-    border-radius: 0px!important;
+    border-radius: 0!important;
 }
 .content .links ul ul{
     position: absolute;
@@ -252,7 +252,7 @@ a.active {
         transition: all 0.3s ease;
     }
     nav #show-menu:checked ~ .content .links{
-        left: 0%;
+        left: 0;
     }
     .content .links li{
         margin: 15px 20px;
@@ -277,7 +277,7 @@ a.active {
         opacity: 1;
         visibility: visible;
         background: none;
-        max-height: 0px;
+        max-height: 0;
         overflow: hidden;
     }
     .content .links #show-Bereiding:checked ~ ul,
