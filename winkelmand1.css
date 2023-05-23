@@ -83,6 +83,18 @@ header ul li a:hover {
 .winkelmand{
     margin-right: 1100px;
 }
+
+.cartAmount {
+    position: absolute;
+    top: 15px;
+    right: 90px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
 .verder-winkelen{
     margin: 2.5%;
     color: #F8B960;

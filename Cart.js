@@ -18,25 +18,26 @@ let generateCartItems = () => {
                 let search = shopItemsData.find((y) => y.id === id) || [];
                 return `
       <div class="cart-item">
-        <img width="100" src=${search.img} alt="" />
-        <div class="details">
-
-          <div class="title-price-x">
-              <h4 class="title-price">
-                <p>${search.name}</p>
-                <p class="cart-item-price">$ ${search.price}</p>
-              </h4>
-              <i onclick="removeItem(${id})" class="bi bi-x-lg"></i>
-          </div>
-
-          <div class="buttons">
-              <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-              <div id=${id} class="quantity">${item}</div>
-              <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
-          </div>
-
-          <h3>$ ${item * search.price}</h3>
+        <div class="col-md-2">
+          <img width="100" src=${search.img} alt="" class="img-thumbnail">
         </div>
+        <div class="col-md-10 cart-item-details">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h3 class="text-orange">${search.name}</h3>
+              <div class="quantity-controls">
+                <a onclick="removeItem(${id})" class="remove-link mr-2">Verwijder</a>
+                <button onclick="decrement(${id})" class="btn btn-orange minus-btn">-</button>
+                <span id=${id} class="quantity text-white p-2">${item}</span>
+                <button onclick="increment(${id})" class="btn btn-orange plus-btn">+</button>
+              </div>
+            </div>
+            <div class="col-md-4 text-right">
+              <div class="text-white h3 product-value">€ ${search.price}</div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-orange">
       </div>
       `;
             })
@@ -44,7 +45,7 @@ let generateCartItems = () => {
     } else {
         ShoppingCart.innerHTML = ``;
         label.innerHTML = `
-    <h2>Cart is Empty</h2>
+    <h2 class="list-title">Cart is Empty</h2>
     <a href="ProductenTest.html">
       <button class="HomeBtn">Back to home</button>
     </a>
@@ -121,7 +122,7 @@ let TotalAmount = () => {
             .reduce((x, y) => x + y, 0);
         // console.log(amount);
         label.innerHTML = `
-    <h2>Total Bill : $ ${amount}</h2>
+    <h2 id="total" class="list-title">Totaalbedrag : € ${amount}</h2>
     <button id="OrderBtn" class="checkout">Checkout</button>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `;
