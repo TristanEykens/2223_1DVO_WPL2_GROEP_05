@@ -81,17 +81,18 @@ h6 {
     margin-bottom: 0;
 }
 
-ul,ol {
+ul, ol {
     color: #FFFFFF;
     margin: 5px 100px auto 100px;
     padding-left: 22px;
 }
+
 ol li {
     padding: 3px 0;
 }
 
 #image {
-    background-image: url("assets/Pasta's/carbonara.jpg");
+    background-image: url("assets/Pasta's/italiaanse rijstsalade.jpg");
     border-radius: 45px;
     background-size: 100% auto;
     aspect-ratio: 1 / 0.5;

@@ -1,93 +1,161 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Lato, sans-serif;
 }
 
-body {
-    background: white;
-    font-family: 'Rubik', sans-serif;
-}
-
-.login-form {
-    background: #fff;
-    width: 500px;
-    margin: 65px auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 4px;
-}
-.login-form h1 {
-    padding: 35px 35px 0 35px;
-    font-weight: bold;
-}
-.login-form .content {
-    padding: 35px;
-    text-align: center;
-}
-.login-form .input-field {
-    padding: 12px 5px;
-}
-.login-form .input-field input {
-    font-size: 16px;
-    display: block;
-    font-family: 'Rubik', sans-serif;
+/* Header */
+header {
     width: 100%;
-    padding: 10px 1px;
-    border: 0;
-    border-bottom: 1px solid #747474;
-    outline: none;
-    transition: all .2s;
+    height: 6rem;
+    background-color: #424040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
 }
-.login-form .input-field input:focus {
+
+header ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+header ul li a {
+    padding: 1rem;
+    color: #f8b960;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: white;
+}
+
+#current_page {
+    font-weight: bold;
+    color: white;
+}
+
+#logo {
+    width: 8rem;
+}
+
+.icons {
+    width: 3rem;
+}
+
+
+/* main */
+main {
+    background-image: url("assets-pasta/background.png");
+    background-position: bottom;
+    background-size: auto;
+
+}
+ main h1 {
+     color: #f8b960;
+     font-weight: bold;
+     padding: 35px 35px 0 35px;
+ }
+
+ main p {
+     color: #F8B960;
+ }
+
+ main #inlog {
+     width: 100%;
+ }
+ main form {
+     background: #fff;
+     margin: 65px auto;
+     display: flex;
+     flex-direction: column;
+     border-radius: 4px;
+     padding: 35px;
+     text-align: center;
+
+ }
+
+ main form input {
+     padding: 12px 5px;
+     font-size: 16px;
+     display: block;
+     font-family: 'Rubik', sans-serif;
+     width: 100%;
+     /* padding: 10px 1px; */
+     border: 0;
+     border-bottom: 1px solid #747474;
+     outline: none;
+     transition: all .2s;
+ }
+
+main form input:focus {
     border-color: #222;
 }
-.login-form a.link {
+
+main a {
     text-decoration: none;
-    color: #747474;
+    color: white;
     letter-spacing: 0.2px;
     text-transform: uppercase;
     display: inline-block;
     margin-top: 20px;
 }
-.login-form .action {
+
+main #action {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.login-form .action button {
-    background: black;
+
+main #checkbox {
     color: white;
+}
+
+main h3 {
+    background: #F8B960;
     width: 100%;
     border: none;
     border-radius: 14px;
     padding: 18px;
-    font-family: 'Rubik', sans-serif;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
     transition: all .3s;
 }
+
+main h3 a {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+main h3:hover {
+    background: #a4783c;
+    color: black;
+}
+
+main h3 a:hover {
+    color: black;
+}
+
+main p #geenaccount {
+    color: white;
+}
+ main img {
+     border-radius: 1rem;
+ }
+
+
+/*
+
 .login-form .action button:hover {
     background: #F8B960;
     color: black;
-}
-
-.container {
-    box-shadow: 0 0 20px black;
-    display: flex;
-    text-align: center;
-    background: lightgray;
-    padding: 30px;
-}
-
-.container p {
-    padding: 0 45px;
-}
-
-.container a {
-    text-decoration: none;
-    color: black;
-    font-size: 10px;
 }
 
 .Extra-nav {
@@ -98,4 +166,69 @@ body {
 }
 .Contact {
     width: 50%;
+}
+
+*/
+
+/* Footer */
+footer {
+    background: #424040;
+    box-shadow: 0 0 20px black;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+footer a:hover {
+    color: #f8b960;
+    font-weight: 400;
+}
+
+footer img {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer #footer_phone img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+#footer_phone, #footer_web {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #footer_phone {
+        display: none;
+    }
+    #footer_web {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_phone {
+        display: block;
+
+    }
+    #footer_web {
+        display: none;
+    }
 }

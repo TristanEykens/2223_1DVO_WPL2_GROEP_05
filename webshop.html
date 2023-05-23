@@ -6,6 +6,7 @@
     <title>Webshop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="webshop.css">
+    <script defer src="webshoptest.js"></script>
 </head>
 <body>
 <!--    <header>
@@ -44,7 +45,7 @@
       <h2>Pasta's</h2>
       <div class="row mb-4">
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta1" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                           <img class="card-img-top img-fluid" style="padding-top: 3rem" src="/assets-pasta/fusilli.png" alt="Card image cap">
@@ -61,6 +62,66 @@
                               </ul>
                               <div class="row" style="align-items: center">
                                   <div class="col-3 col-md-5">
+                                      <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button" onclick="decrementValue()">-</button><input type="number" id="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button" onclick="incrementValue()">+</button>
+                                  </div>
+                                  <div class="col-5 col-md-7">
+                                      <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xxl-6">
+              <div class="card" id="pasta2" style="width: 40rem; margin: 0 auto">
+                  <div class="row no-gutters">
+                      <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
+                          <img class="card-img-top img-fluid" style="padding-top: 2rem" src="/assets-pasta/penne.png" alt="Card image cap">
+                      </div>
+                      <div class="col-md-7">
+                          <div class="card-body">
+                              <h5 class="card-title">Penne</h5>
+                              <p class="card-text">Buisvormige pasta, schuin afgesneden, met geribd oppervlak, voorgekookt, geolied en gezouten, diepgevroren en niet klevend.</p>
+                              <ul>
+                                  <li>Perfect 'al dente' gekookt.</li>
+                                  <li>Klaar in 30 sec.</li>
+                                  <li>Kleefvrij.</li>
+                                  <li>Lange houdbaarheid van 18 maanden.</li>
+                              </ul>
+                              <div class="row" style="align-items: center">
+                                  <div class="col-3 col-md-5">
+                                      <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button" onclick="decrementValue()">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button" onclick="incrementValue()">+</button>
+                                  </div>
+                                  <div class="col-5 col-md-7">
+                                      <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row mb-4">
+          <div class="col-xxl-6">
+              <div class="card" id="pasta3" style="width: 40rem; margin: 0 auto">
+                  <div class="row no-gutters">
+                      <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
+                          <img class="card-img-top img-fluid" style="padding-top: 3rem" src="/assets-pasta/farfalle.png" alt="Card image cap">
+                      </div>
+                      <div class="col-md-7">
+                          <div class="card-body">
+                              <h5 class="card-title">Farfalle</h5>
+                              <p class="card-text">Pasta in vlindervorm met glad oppervlak, voorgekookt, geolied en gezouten, individueel diepgevroren en niet klevend.</p>
+                              <ul>
+                                  <li>Perfect 'al dente' gekookt.</li>
+                                  <li>Klaar in 30 sec.</li>
+                                  <li>Kleefvrij.</li>
+                                  <li>Lange houdbaarheid van 18 maanden.</li>
+                              </ul>
+                              <div class="row" style="align-items: center">
+                                  <div class="col-3 col-md-5">
                                       <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                   </div>
                                   <div class="col-5 col-md-7">
@@ -73,15 +134,15 @@
               </div>
           </div>
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta4" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
-                          <img class="card-img-top img-fluid" style="padding-top: 2rem" src="/assets-pasta/penne.png" alt="Card image cap">
+                          <img class="card-img-top img-fluid" style="padding-top: 2rem" src="/assets-pasta/macaroni.png" alt="Card image cap">
                       </div>
                       <div class="col-md-7">
                           <div class="card-body">
-                              <h5 class="card-title">Penne</h5>
-                              <p class="card-text">Buisvormige pasta, schuin afgesneden, met geribd oppervlak, voorgekookt, geolied en gezouten, diepgevroren en niet klevend.</p>
+                              <h5 class="card-title">Macaroni</h5>
+                              <p class="card-text">Buisvormige pasta met glad oppervlak, voorgekookt, geolied en gezouten, individueel diepgevroren en niet klevend.</p>
                               <ul>
                                   <li>Perfect 'al dente' gekookt.</li>
                                   <li>Klaar in 30 sec.</li>
@@ -104,67 +165,7 @@
       </div>
       <div class="row mb-4">
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
-                  <div class="row no-gutters">
-                      <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
-                          <img class="card-img-top img-fluid" style="padding-top: 3rem" src="/assets-pasta/farfalle.png" alt="Card image cap">
-                      </div>
-                      <div class="col-md-7">
-                          <div class="card-body">
-                              <h5 class="card-title">Farfalle</h5>
-                              <p class="card-text">Pasta in vlindervorm met glad oppervlak, voorgekookt, geolied en gezouten, individueel diepgevroren en niet klevend.</p>
-                              <ul>
-                                  <li>Perfect 'al dente' gekookt.</li>
-                                  <li>Klaar in 30 sec.</li>
-                                  <li>Kleefvrij.</li>
-                                  <li>Lange houdbaarheid van 18 maanden.</li>
-                              </ul>
-                              <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
-                                      <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
-                                  </div>
-                                  <div class="col-md-7">
-                                      <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
-                  <div class="row no-gutters">
-                      <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
-                          <img class="card-img-top img-fluid" style="padding-top: 2rem" src="/assets-pasta/macaroni.png" alt="Card image cap">
-                      </div>
-                      <div class="col-md-7">
-                          <div class="card-body">
-                              <h5 class="card-title">Macaroni</h5>
-                              <p class="card-text">Buisvormige pasta met glad oppervlak, voorgekookt, geolied en gezouten, individueel diepgevroren en niet klevend.</p>
-                              <ul>
-                                  <li>Perfect 'al dente' gekookt.</li>
-                                  <li>Klaar in 30 sec.</li>
-                                  <li>Kleefvrij.</li>
-                                  <li>Lange houdbaarheid van 18 maanden.</li>
-                              </ul>
-                              <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
-                                      <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
-                                  </div>
-                                  <div class="col-md-7">
-                                      <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="row mb-4">
-          <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta5" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                           <img class="card-img-top img-fluid" style="padding-top: 1rem" src="/assets-pasta/rigatone.png" alt="Card image cap">
@@ -180,10 +181,10 @@
                                   <li>Lange houdbaarheid van 18 maanden.</li>
                               </ul>
                               <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
+                                  <div class="col-3 col-md-5">
                                       <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                   </div>
-                                  <div class="col-md-7">
+                                  <div class="col-5 col-md-7">
                                       <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                   </div>
                               </div>
@@ -193,7 +194,7 @@
               </div>
           </div>
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta6" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                           <img class="card-img-top img-fluid" style="padding-top: 3rem" src="/assets-pasta/conchiglie.png" alt="Card image cap">
@@ -209,10 +210,10 @@
                                   <li>Lange houdbaarheid van 18 maanden.</li>
                               </ul>
                               <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
+                                  <div class="col-3 col-md-5">
                                       <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                   </div>
-                                  <div class="col-md-7">
+                                  <div class="col-5 col-md-7">
                                       <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                   </div>
                               </div>
@@ -224,7 +225,7 @@
       </div>
       <div class="row mb-4">
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta7" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                           <img class="card-img-top img-fluid" style="padding-top: 1rem" src="/assets-pasta/capellini.png" alt="Card image cap">
@@ -240,10 +241,10 @@
                                   <li>Lange houdbaarheid van 18 maanden.</li>
                               </ul>
                               <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
+                                  <div class="col-3 col-md-5">
                                       <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                   </div>
-                                  <div class="col-md-7">
+                                  <div class="col-5 col-md-7">
                                       <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                   </div>
                               </div>
@@ -253,7 +254,7 @@
               </div>
           </div>
           <div class="col-xxl-6">
-              <div class="card" style="width: 40rem; margin: 0 auto">
+              <div class="card" id="pasta8" style="width: 40rem; margin: 0 auto">
                   <div class="row no-gutters">
                       <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                           <img class="card-img-top img-fluid" style="padding-top: 2rem" src="/assets-pasta/tagliatelli.png" alt="Card image cap">
@@ -269,10 +270,10 @@
                                   <li>Lange houdbaarheid van 18 maanden.</li>
                               </ul>
                               <div class="row" style="align-items: center">
-                                  <div class="col-md-5">
+                                  <div class="col-3 col-md-5">
                                       <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                   </div>
-                                  <div class="col-md-7">
+                                  <div class="col-5 col-md-7">
                                       <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                   </div>
                               </div>
@@ -289,7 +290,7 @@
     <h2>Sauzen</h2>
     <div class="row mb-4">
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus1" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 3rem" src="/assets-pasta/bolognese.png" alt="Card image cap">
@@ -299,10 +300,10 @@
                             <h5 class="card-title">Bolognese</h5>
                             <p class="card-text" style="margin-bottom: 9.5rem">Eenvoudige pastasaus op basis van tomaten, ui en kippengehakt.</p>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -312,7 +313,7 @@
             </div>
         </div>
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus2" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/napolitana.png" alt="Card image cap">
@@ -322,10 +323,10 @@
                             <h5 class="card-title">Napolitana</h5>
                             <p class="card-text" style="margin-bottom: 8rem">Een zachte en gemixte vegetarische tomatensaus met wortelen, basilicum en olijfolie.</p>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -337,7 +338,7 @@
     </div>
     <div class="row mb-4">
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus3" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/carbonara.png" alt="Card image cap">
@@ -353,10 +354,10 @@
                                 <li>Bain-marie bestendig</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -366,7 +367,7 @@
             </div>
         </div>
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus4" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/scampicrema.png" alt="Card image cap">
@@ -382,10 +383,10 @@
                                 <li>In microgolfbestendige kookzakken.</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -397,7 +398,7 @@
     </div>
     <div class="row mb-4">
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus5" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/forestiere.png" alt="Card image cap">
@@ -413,10 +414,10 @@
                                 <li>In microgolfbestendige kookzakken.</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -426,7 +427,7 @@
             </div>
         </div>
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus6" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/maffioso.png" alt="Card image cap">
@@ -442,10 +443,10 @@
                                 <li>Bain-marie bestendig</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -457,7 +458,7 @@
     </div>
     <div class="row mb-4">
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus7" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/bolognese-halal.png" alt="Card image cap">
@@ -467,10 +468,10 @@
                             <h5 class="card-title">Thai Curry</h5>
                             <p class="card-text" style="margin-bottom: 8rem">Thai Curry-saus met stukjes paprika, een zacht pikante smaak en de typische exotische aroma’s van Thaise sauzen.</p>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -480,7 +481,7 @@
             </div>
         </div>
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="saus8" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 5rem; width: 14rem; padding-left: 1rem" src="/assets-pasta/pesto.png" alt="Card image cap">
@@ -496,10 +497,10 @@
                                 <li>Lange houdbaarheid van 18 maanden.</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -516,7 +517,7 @@
     <h2>Rijst</h2>
     <div class="row mb-4">
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="rijst1" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/rijst.png" alt="Card image cap">
@@ -529,10 +530,10 @@
                                 <li>Lange houdbaarheid van 24 maanden.</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
@@ -542,7 +543,7 @@
             </div>
         </div>
         <div class="col-xxl-6">
-            <div class="card" style="width: 40rem; margin: 0 auto">
+            <div class="card" id="rijst2" style="width: 40rem; margin: 0 auto">
                 <div class="row no-gutters">
                     <div class="col-md-5 bg-white phonesizesmall" style="border-radius: 10px; height: 18rem">
                         <img class="card-img-top img-fluid" style="padding-top: 1.5rem" src="/assets-pasta/rijst.png" alt="Card image cap">
@@ -555,10 +556,10 @@
                                 <li>Lange houdbaarheid van 24 maanden.</li>
                             </ul>
                             <div class="row" style="align-items: center">
-                                <div class="col-md-5">
+                                <div class="col-3 col-md-5">
                                     <button style="min-width: 2rem; height: 2rem" class="btnmin" type="button">-</button><input type="number" inputmode="decimal" style="max-width: 2rem; height: 2rem" placeholder="0"><button style="min-width: 2rem; height: 2rem" class="btnplus" type="button">+</button>
                                 </div>
-                                <div class="col-md-7">
+                                <div class="col-5 col-md-7">
                                     <a href="#" style="max-width: 12rem" class="btn btn-primary">Toevoegen aan winkelmandje</a>
                                 </div>
                             </div>
