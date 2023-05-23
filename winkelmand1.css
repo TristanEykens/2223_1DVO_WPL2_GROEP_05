@@ -1,4 +1,4 @@
-* {
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -83,18 +83,6 @@ header ul li a:hover {
 .winkelmand{
     margin-right: 1100px;
 }
-
-.cartAmount {
-    position: absolute;
-    top: 15px;
-    right: 90px;
-    font-size: 16px;
-    background-color: red;
-    color: white;
-    padding: 3px;
-    border-radius: 3px;
-}
-
 .verder-winkelen{
     margin: 2.5%;
     color: #F8B960;
@@ -116,4 +104,10 @@ header ul li a:hover {
     border: 0;
     border-top: 1px solid #F8B960;
 
+}
+.box {
+    background-color: rgba(240, 240, 240, 0.09);
+    padding: 50px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
