@@ -246,7 +246,7 @@ a.active {
     justify-content: left;
     align-items: center;
     flex-direction: row;
-    padding: 13rem 0 1rem 8rem;
+    padding: 3rem 0 1rem 8rem;
     text-align: Left;
     font-size: 35px;
     color: white;
@@ -758,7 +758,7 @@ a.active {
         padding: 2rem 0 ;;
     }
     .Titel_div{
-        padding: 13rem 1rem;
+        padding: 2rem 1rem;
         text-align: center;
     }
     .Bekijk-Ons-Aanbod-Knop-Div {
