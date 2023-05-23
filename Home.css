@@ -29,7 +29,7 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
-    position: fixed;
+    position: relative;
     width: 100%;
     background-color: rgba(31, 31, 31, 0.94);
     z-index: 3;
@@ -434,6 +434,7 @@ a.active {
     width: 25%;
     margin: 2.69%;
     border-radius: 25px;
+    overflow: scroll;
 }
 
 .Info-chef-individueel p {
@@ -697,14 +698,77 @@ a.active {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .karoe .card .image {
+        width: 100px;
+        height: 100px;
+    }
+    .karoe .card .name {
+        font-size: 12pt;
+    }
+}
+
 @media screen and (max-width: 882px) {
     #terugnaarboven {
         display: none;
+    }
+    .karoe .card .image {
+        width: 100px;
+        height: 100px;
+    }
+    .karoe .card .name {
+        font-size: 12pt;
     }
 }
 @media screen and (min-width: 882px) {
     #terugnaarboven2 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .karoe .card .image {
+        width: 100px;
+        height: 100px;
+    }
+    .karoe .card .name {
+        font-size: 9pt;
+    }
+    .karoe .card .button {
+        padding: 3px;
+    }
+    .karoe .card .rating i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .karoe, .meest{
+        display: none;
+    }
+    #Uitleg .blij {
+        display: none;
+    }
+    #Uitleg {
+        margin: 0 auto;
+        padding: 1rem;
+        text-align: center;
+    }
+    #uitlegtekst{
+        padding: 2rem 0 ;;
+    }
+    .Titel_div{
+        padding: 13rem 1rem;
+        text-align: center;
+    }
+    .Bekijk-Ons-Aanbod-Knop-Div {
+        padding: 0;
+        margin-left: 27%;
+    }
+    .Inspiratie_Titel {
+        padding: 0;
+        margin: 2rem auto;
+        text-align: center;
     }
 }
 
