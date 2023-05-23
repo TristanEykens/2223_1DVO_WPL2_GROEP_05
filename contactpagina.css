@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #22252A;
-}
+    background-image: url("assets-pasta/background.png");
+    background-size: auto;
+    background-position: bottom;}
 
 
 /* Header */
@@ -51,7 +52,7 @@ body {
 
 /*main*/
 main {
-    background-color: #272424;
+    /*background-color: #272424;*/
 }
 
 h1, h5 {
@@ -91,13 +92,13 @@ h1 {
 
 .contact_logo {
     height: 55px;
-    filter: #5A3F19;
+    filter: invert(22%) sepia(21%) saturate(1713%) hue-rotate(356deg) brightness(91%) contrast(84%);
 }
 
 .social_logo {
     height: 55px;
     margin: 0 15px;
-    color: #5A3F19;
+    filter: invert(22%) sepia(21%) saturate(1713%) hue-rotate(356deg) brightness(91%) contrast(84%);
 }
 
 
