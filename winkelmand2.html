@@ -2,33 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Winkelmand1</title>
+    <title>Winkelmand2</title>
     <meta name="viewport" content="width=device-width, initial-scal=1.0">
     <link rel="stylesheet" href="bootstrap-grid.min.css">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
           rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="winkelmand2.css">
 
 </head>
 <body>
-<header>
-    <div>
-        <a href="./Home.html"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
-    </div>
-    <ul>
-        <li><a href="./Home.html">Home</a></li>
-        <li><a href="#">Producten</a></li>
-        <li><a href="./voordelen.html">Voordelen</a></li>
-        <li><a href="#">Bereiding</a></li>
-        <li><a href="./over_ons.html">Over ons</a></li>
-        <li><a href="./Contactpagina.html">Contact</a></li>
-    </ul>
-    <div>
-        <a href="./winkelmand1.html"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
-        <a href="./Login.html"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
-    </div>
-</header>
+<!-- Vanaf hier is header -->
+<div class="wrapper">
+    <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="./Home.html"><img src="assets-pasta/logo.png" alt="Logo" id="logo"></a></div>
+            <ul class="links">
+                <li><a href="Home.html">Home</a></li>
+                <li>
+                    <a href="webshop.html" class="desktop-link">Producten</a>
+                    <input type="checkbox" id="show-prod">
+                    <label for="show-prod">Producten</label>
+                    <ul>
+                        <li><a href="webshop.html#pastas">Pasta</a></li>
+                        <li><a href="webshop.html#rijst">Rijst</a></li>
+                        <li><a href="webshop.html">Maaltijden</a></li>
+                        <li><a href="webshop.html#sauzen">Sauzen</a></li>
+                        <li><a href="webshop.html">Horeca</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="bereiding.html" class="desktop-link">Bereiding</a>
+                    <input type="checkbox" id="show-Bereiding">
+                    <label for="show-Bereiding">Bereiding</label>
+                    <ul>
+                        <li><a href="bereiding.html#receptenTitel">Recepten</a></li>
+                        <li><a href="bereiding.html#tips&tricks">Tips</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="over_ons.html" class="desktop-link">Over ons</a>
+                    <input type="checkbox" id="show-about">
+                    <label for="show-about">Over ons</label>
+                    <ul>
+                        <li><a href="over_ons.html">Geschiedenis</a></li>
+                        <li><a href="over_ons.html#ethiek">Bedrijfsethiek</a></li>
+                        <li><a href="voordelen.html">Voordelen</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contactpagina.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping">
+                <div id="cartAmount" class="cartAmount">0</div>
+            </i></a>
+            <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+</div>
+<!-- Tot hier is header -->
 
 <main>
     <div class="container">
@@ -223,9 +264,10 @@
 </div>
 
 </div>-->
+<script src="DataTable.js"></script>
+<script src="Cart.js"></script>
+<script defer src="script-home.js"></script>
 </body>
-<script src="./DataTable.js"></script>
-<script src="./script-home.js"></script>
 
 </html>
 
