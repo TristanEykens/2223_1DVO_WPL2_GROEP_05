@@ -89,15 +89,14 @@ input{
     background-color: #eaa236;
     color: white;
 }
+.titel {
+    margin-bottom: 40px;
+}
 
 @media (max-width: 767px) {
     .card-img-top{
         height: 14rem;
         width: auto;
-    }
-    .phonesizesmall{
-        width: 18rem;
-        margin: auto 0;
     }
     .card-text{
         width: 20rem;
