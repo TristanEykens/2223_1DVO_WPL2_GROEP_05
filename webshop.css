@@ -222,7 +222,68 @@ a.active {
 .content .links ul li:hover ul{
     top: 0;
 }
+/* Footer */
+footer {
+    background: #424040;
+    box-shadow: 0 0 20px black;
+    color: white;
+}
 
+footer h3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+footer a:hover {
+    color: #f8b960;
+    font-weight: 400;
+}
+
+footer img {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer #footer_phone img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+#footer_phone, #footer_web {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #footer_phone {
+        display: none;
+    }
+    #footer_web {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_phone {
+        display: block;
+
+    }
+    #footer_web {
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 1250px){
