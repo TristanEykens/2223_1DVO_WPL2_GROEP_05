@@ -2,35 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kip Jambalaya</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-grid.min.css">
-    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kip Jambalaya</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <link rel="stylesheet" href="Kip%20Jambalaya%20Rijst.css">
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script defer src="https://kit.fontawesome.com/84ff77f7b8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div>
-        <a href="#"><img src="assets/Logo transparant.png" alt="Logo" id="logo"></a>
-    </div>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Producten</a></li>
-        <li><a href="#">Voordelen</a></li>
-        <li><a href="#">Bereiding</a></li>
-        <li><a href="#">Over ons</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-    <div>
-        <a href="#"><img src="assets/icons/shopping_cart.png" alt="icon_account" class="icons"></a>
-        <a href="#"><img src="assets/icons/account.png" alt="icon_account" class="icons"></a>
-    </div>
-</header>
+<!-- Vanaf hier is header -->
+<div class="wrapper">
+    <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="./Home.html"><img src="assets-pasta/logo.png" alt="Logo" id="logo"></a></div>
+            <ul class="links">
+                <li><a href="Home.html">Home</a></li>
+                <li>
+                    <a href="webshop.html" class="desktop-link">Producten</a>
+                    <input type="checkbox" id="show-prod">
+                    <label for="show-prod">Producten</label>
+                    <ul>
+                        <li><a href="webshop.html#pastas">Pasta</a></li>
+                        <li><a href="webshop.html#rijst">Rijst</a></li>
+                        <li><a href="webshop.html">Maaltijden</a></li>
+                        <li><a href="webshop.html#sauzen">Sauzen</a></li>
+                        <li><a href="webshop.html">Horeca</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="bereiding.html" class="desktop-link">Bereiding</a>
+                    <input type="checkbox" id="show-Bereiding">
+                    <label for="show-Bereiding">Bereiding</label>
+                    <ul>
+                        <li><a href="bereiding.html#receptenTitel">Recepten</a></li>
+                        <li><a href="bereiding.html#tips&tricks">Tips</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="over_ons.html" class="desktop-link">Over ons</a>
+                    <input type="checkbox" id="show-about">
+                    <label for="show-about">Over ons</label>
+                    <ul>
+                        <li><a href="over_ons.html">Geschiedenis</a></li>
+                        <li><a href="over_ons.html#ethiek">Bedrijfsethiek</a></li>
+                        <li><a href="voordelen.html">Voordelen</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contactpagina.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping">
+                <div id="cartAmount" class="cartAmount">0</div>
+            </i></a>
+            <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </nav>
+</div>
+<!-- Tot hier is header -->
 
 <main>
-    <div class="linksFoto col-5">
+    <div class="linksFoto col-sm-5">
         <h1 class="TitelRecept">Kip Jambalaya met Rijst</h1>
-        <h4>Ingrediënten (4 personen)</h4>
+        <h2>Ingrediënten (4 personen)</h2>
 <!--        <h6>(Je kan ook onze lekkere en verse sauzen kopen om het jezelf nog makkelijker te maken!)</h6>-->
         <ul id="ingrediënten">
             <li>Basmati rijst: 250 g</li>
@@ -51,8 +92,8 @@
     <div id="image" class="col-5 justify-content-end"></div>
 
 
-    <h4>Bereiding</h4>
-    <ol id="bereiding">
+    <h2>Bereiding</h2>
+    <ol id="bereiding" class="col-6">
         <li>Snipper de ui en knoflook en fruit deze aan in een grote (wok)pan. Snijd de kip in stukjes en voeg toe en bak rondom aan. Voeg de cajunkruiden en paprikapoeder toe.</li>
         <li>Snijd de paprika en tomaten in blokjes en de bleekselderij in plakjes. Voeg deze groenten samen met de chorizo toe aan de kip.</li>
         <li>Voeg een eetlepel tomatenpuree toe en bak even mee. Schep de ongekookte rijst er door en giet dan de bouillon er bij. Laat het mengsel ongeveer 15 minuten zachtjes pruttelen tot de rijst gaar is en het water is opgenomen.</li>
@@ -61,32 +102,57 @@
     </ol>
 </main>
 
-<div class="footer">
-    <div class="container-fluid">
-        <div class="Extra-nav">
-            <h4>Pasta Fresca</h4> <br>
-            <p>Home</p>
-            <p>Onze producten</p>
-            <p>Voordelen</p>
-            <p>Recepten</p>
-            <p>Tips & tricks</p>
-            <p>Over ons</p>
-            <p>Contact</p>
+<footer>
+    <div class="container" id="footer_web">
+        <div class="row">
+            <div class="col-4 offset-1">
+                <h3><a href="Home.html">Pasta Fresca</a></h3>
+            </div>
+            <div class="col-4">
+                <h3><a href="webshop.html">Ons aanbod</a></h3>
+            </div>
+            <div class="col-3">
+                <h3><a href="over_ons.html">Vragen?</a></h3>
+            </div>
         </div>
-        <div class="Ons-aanbod">
-            <h4>Ons-aanbod</h4> <br>
-            <p>Onze pasta's</p>
-            <p>Onze rijst</p>
-            <p>Onze sauzen</p>
+        <div class="row">
+            <div class="col-4 offset-1">
+                <a href="Home.html">Home</a><br>
+                <a href="webshop.html">Producten</a><br>
+                <a href="bereiding.html">Bereiding</a><br>
+                <a href="over_ons.html">About</a><br>
+                <a href="Contactpagina.html">Contact</a><br>
+            </div>
+            <div class="col-4">
+                <a href="webshop.html#pastas">Pasta</a><br>
+                <a href="webshop.html#sauzen">Saus</a><br>
+                <a href="webshop.html#rijst">Rijst</a><br>
+            </div>
+            <div class="col-3">
+                <a href="over_ons.html">FAQ</a><br>
+                <a href="Home.html">012 34 56 78</a><br>
+                <a href="https://www.instagram.com" target="_blank"><img src="assets/icons/Instagram.png"
+                                                                         alt="instagram"/></a><a
+                    href="https://www.facebook.com" target="_blank"><img src="assets/icons/Facebook.png"
+                                                                         alt="facebook"/></a>
+            </div>
         </div>
-        <div class="Contact">
-            <h4>Vragen?</h4> <br>
-            <p><a href="tel:+32487295055">Tel: +(32) 478 59 50 29</a></p>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>Copyright © pastafresca</p>
+            </div>
         </div>
     </div>
-    <div class="Container_Subtext">
-        <p>Copyright @ pastafresca</p>
+
+    <div class="container" id="footer_phone">
+        <div class="row">
+            <div class="col12 text-center">
+                <a href="Home.html"><img src="assets/Logo transparant.png" alt="logo"/></a>
+            </div>
+        </div>
     </div>
-</div>
+</footer>
+<script defer src="DataTable.js"></script>
+<script src="Cart.js"></script>
 </body>
 </html>

@@ -14,35 +14,13 @@ function  decrementValue(){
     document.getElementById('number').value = waarde;
 }
 
-function increment() {
-    let selectedItem = id;
-    let input = document.getElementById('number').value;
-    let search = basket.find((x) => x.id === "Pasta1");
+function addToCart (){
+    var input = document.getElementById('number');
+    var winkelmandhoeveelheid = parseInt(document.getElementById('cartAmount').textContent);
+    var waarde = parseInt((input.value));
+    winkelmandhoeveelheid = isNaN(winkelmandhoeveelheid) ? 0 : winkelmandhoeveelheid;
+    waarde = isNaN(waarde) ? 0 : waarde;
+    winkelmandhoeveelheid += waarde;
+    document.getElementById('cartAmount').textContent = winkelmandhoeveelheid;
 
-    if (search === undefined) {
-        basket.push({
-            id: "Pasta1",
-            item: 1,
-        });
-    } else {
-        search.item += input;
-    }
-
-    // console.log(basket);
-    update("Pasta1");
-    localStorage.setItem("data", JSON.stringify(basket));
-};
-
-let update = (id) => {
-    let search = basket.find((x) => x.id === id);
-    // console.log(search.item);
-    document.getElementById(id).innerHTML = search.item;
-    calculation();
-};
-
-let calculation = () => {
-    let cartIcon = document.getElementById("cartAmount");
-    cartIcon.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
-};
-
-calculation();
+}
