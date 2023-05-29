@@ -61,45 +61,68 @@ h1 {
 }
 
 
-/* Deel 4: footer */
-.container-fluid {
+/* Footer */
+footer {
+    background: #424040;
     box-shadow: 0 0 20px black;
-    display: flex;
-    text-align: center;
-    background: #22252A;
-    padding: 30px;
     color: white;
 }
 
-.container-fluid p {
-    padding: 0 45px;
+footer h3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-.container-fluid a {
+footer a {
+    color: white;
     text-decoration: none;
-    color: white;
-    font-size: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-.Extra-nav {
-    width: 50%;
+footer a:hover {
+    color: #f8b960;
+    font-weight: 400;
 }
 
-.Ons-aanbod {
-    width: 50%;
+footer img {
+    width: 1.5rem;
+    margin-right: 1rem;
 }
 
-.Contact {
-    width: 50%;
+footer p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-.Container_Subtext {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #22252A;
-    padding: 30px;
-    color: white;
+footer #footer_phone img {
+    width: 10rem;
+    padding: 1rem;
+}
+
+#footer_phone, #footer_web {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #footer_phone {
+        display: none;
+    }
+    #footer_web {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_phone {
+        display: block;
+
+    }
+    #footer_web {
+        display: none;
+    }
 }
 
 /* Header */

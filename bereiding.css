@@ -114,76 +114,88 @@ a:hover {
     margin: 50px auto auto 100px;
 }
 
+.list.container.col-7 {
+    display: inline-block;
+    justify-content: left;
+    margin-left: 145px;
+}
+
 ol {
     color: #FFFFFF;
 }
 
 .tip {
-    margin: 50px 0;
+    margin: 25px 0;
 }
 
-/* footer */
-.container-fluid {
+/* Footer */
+footer {
+    background: #424040;
     box-shadow: 0 0 20px black;
-    display: flex;
-    text-align: center;
-    background: #22252A;
-    padding: 30px;
     color: white;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
-.container-fluid p {
-    padding: 0 45px;
+footer h3 {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-.container-fluid a {
+footer a {
+    color: white;
     text-decoration: none;
-    color: white;
-    font-size: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+    width: unset;
 }
 
-.Extra-nav {
-    width: 50%;
+footer a:hover {
+    color: #f8b960;
+    font-weight: 400;
 }
 
-.Ons-aanbod {
-    width: 50%;
+footer img {
+    width: 1.5rem;
+    margin-right: 1rem;
 }
 
-.Contact {
-    width: 50%;
-}
-
-.Container_Subtext {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #22252A;
-    padding: 30px;
-    color: white;
-}
-
-header ul li a:hover {
-    color: white;
-}
-
-#current_page {
+footer p {
     font-weight: bold;
-    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-#logo {
-    width: 8rem;
+footer #footer_phone img {
+    width: 10rem;
+    padding: 1rem;
 }
 
-.icons {
-    width: 3rem;
+#footer_phone, #footer_web {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #footer_phone {
+        display: none;
+    }
+    #footer_web {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer_phone {
+        display: block;
+
+    }
+    #footer_web {
+        display: none;
+    }
 }
 
 
 /* Header */
-
 .wrapper {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -419,6 +431,12 @@ a.active {
 
     .list.container {
         width: 80%;
+    }
+
+    .list.container.col-7 {
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 
