@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasta Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./ProductenTest.css">
+    <link rel="stylesheet" href="./webshop.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
@@ -71,14 +73,28 @@
 </div>
 <!-- Tot hier is header -->
 
-<h1>Pasta's</h1>
-<div class="shop" id="shop">
-
-    <---Load products here--->
-
+<div class="container" style="margin-top: 3rem">
+    <h1 class="text-center">Onze Producten:</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-1 mb-1 text-center">
+            <a href="#pastas" class="btncat">Pasta's</a>
+        </div>
+        <div class="col-lg-1 mb-1 text-center">
+            <a href="#sauzen" class="btncat">Sauzen</a>
+        </div>
+        <div class="col-lg-1 mb-1 text-center">
+            <a href="#rijst" class="btncat">Rijst</a>
+        </div>
+    </div>
 </div>
-<h1>Rijsten</h1>
+<br><br><br>
+<div class="row mb-4">
+    <div class="shop" id="shop">
 
+        <---Load products here--->
+
+    </div>
+</div>
 </body>
 <script src="./DataTable.js"></script>
 <script src="./ProductenTest.js"></script>

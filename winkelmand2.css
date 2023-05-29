@@ -13,6 +13,7 @@ h1 {
     font-family: Mr Alex;
     font-size: 50px;
 }
+
 header {
     width: 100%;
     height: 6rem;
@@ -102,7 +103,7 @@ label {
 }
 
 .lbl_column_small input {
-width: 150px !important;
+    width: 150px !important;
 }
 
 .apt {
@@ -126,7 +127,6 @@ width: 150px !important;
 
 /* Style the active class (and buttons on mouse-over) */
 .active, .btn:hover {
-    background-color: #666;
     color: white;
 }
 .checkout-button{
@@ -169,4 +169,25 @@ width: 150px !important;
 .product-value{
     margin-left: 150px;
     font-size: 20px;
+}
+
+.betaalknop {
+    background: #F8B960;
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    padding: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.betaalknop:hover {
+    background: #a4783c;
+    color: black;
 }

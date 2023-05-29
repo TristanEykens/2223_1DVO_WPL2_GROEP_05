@@ -284,6 +284,10 @@ a {
     border-radius: 4px;
 }
 
+.DescriptionParagraph {
+    height: 120px;
+}
+
 .details {
     display: flex;
     flex-direction: column;
@@ -311,11 +315,11 @@ a {
 }
 
 .bi-dash-lg {
-    color: red;
+    color: black;
 }
 
 .bi-plus-lg {
-    color: green;
+    color: black;
 }
 
 /**
