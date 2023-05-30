@@ -286,7 +286,7 @@ a {
 
 /* Deel 1: Main */
 #hero {
-    background-image: url("assets-pasta/home-head-hero.png");
+    background-image: url("assets-pasta/home-head-hero-pasta.png");
     background-repeat: no-repeat;
     background-position: 550px -120px;
     background-size: 90%;
@@ -304,7 +304,7 @@ a {
     color: white;
 }
 #hero {
-    background-image: url("assets-pasta/home-head-hero.png");
+    background-image: url("assets-pasta/home-head-hero-pasta.png");
     background-size: 100%;
     
 }
