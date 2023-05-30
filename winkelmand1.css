@@ -105,3 +105,9 @@ header ul li a:hover {
     border-top: 1px solid #F8B960;
 
 }
+.box {
+    background-color: rgba(240, 240, 240, 0.09);
+    padding: 30px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
